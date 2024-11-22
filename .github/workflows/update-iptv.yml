@@ -28,7 +28,9 @@ jobs:
         pip install requests beautifulsoup4
     
     - name: Run crawler
-      run: python src/crawler.py
+      run: |
+        ls -la  # 调试：列出当前目录内容
+        python crawler.py
     
     - name: Commit changes
       run: |
