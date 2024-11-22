@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Stream</title>
+</head>
+<body>
+    <video id="player" controls></video>
+    <script>
+        const player = document.getElementById('player');
+        const urlParams = new URLSearchParams(window.location.search);
+        const token = urlParams.get('token');
+
+        // 验证Token是否有效
+        if (token !== 'YOUR_GENERATED_TOKEN') {
+            alert('Invalid Token');
+            player.src = '';
+        } else {
+            // 加载直播源
+            const liveSourceUrl = 'https://raw.githubusercontent.com/leiyou-li/moyuntv2/refs/heads/main/live_ipv4.txt';
+            fetch(liveSourceUrl)
+                .then(response => response.text())
+                .then(data => {
+                    const sourceUrl = data.trim(); // 假设直播源地址是纯文本
+                    player.src = sourceUrl;
+                    player.play();
+                })
+                .catch(error => console.error('Error fetching live source:', error));
+        }
+    </script>
+</body>
+</html>
