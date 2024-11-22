@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
         python-version: '3.x'
     
@@ -36,7 +36,18 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add iptv.m3u iptv_ipv4.m3u iptv_ipv6.m3u iptv_both.m3u
-        git add iptv.txt iptv_ipv4.txt iptv_ipv6.txt iptv_both.txt
-        git commit -m "Update IPTV sources $(date +'%Y-%m-%d')" || echo "No changes to commit"
-        git push
+        
+        # 检查并添加存在的文件
+        for file in iptv.m3u iptv_ipv4.m3u iptv_ipv6.m3u iptv_both.m3u iptv.txt iptv_ipv4.txt iptv_ipv6.txt iptv_both.txt; do
+          if [ -f "$file" ]; then
+            git add "$file"
+          fi
+        done
+        
+        # 检查是否有文件要提交
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Update IPTV sources $(date +'%Y-%m-%d')"
+          git push
+        fi
