@@ -8,12 +8,16 @@ on:
 jobs:
   update-iptv:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write    # 添加写入权限
     
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}  # 使用 GITHUB_TOKEN
     
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v2
       with:
         python-version: '3.x'
     
@@ -34,8 +38,8 @@ jobs:
     
     - name: Commit changes
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
         
         # 检查并添加存在的文件
         for file in iptv.m3u iptv_ipv4.m3u iptv_ipv6.m3u iptv_both.m3u iptv.txt iptv_ipv4.txt iptv_ipv6.txt iptv_both.txt; do
@@ -51,3 +55,5 @@ jobs:
           git commit -m "Update IPTV sources $(date +'%Y-%m-%d')"
           git push
         fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 设置环境变量
