@@ -107,15 +107,38 @@ class IPTVCrawler:
         """搜索GitHub上的IPTV资源"""
         urls = []
         try:
-            # 扩展搜索关键词
+            # 专注于中国直播源的关键词
             search_queries = [
-                "extension:m3u+iptv+china",
-                "extension:m3u8+iptv+china",
-                "filename:playlist.m3u",
-                "filename:tv.m3u",
-                "filename:china.m3u"
+                "CCTV+m3u",
+                "央视+m3u",
+                "卫视+m3u",
+                "地方台+m3u",
+                "chinese+tv+m3u",
+                "china+live+tv",
+                "国内直播源",
+                "国内电视台+m3u",
+                "省台+m3u",
+                "市台+m3u"
             ]
             
+            # 已知的可靠直播源仓库
+            known_repos = [
+                "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/global.m3u",
+                "https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
+                "https://raw.githubusercontent.com/vamoschuck/TV/main/M3U",
+                "https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u",
+                "https://raw.githubusercontent.com/youshandefeiyang/IPTV/main/main.m3u",
+                "https://raw.githubusercontent.com/SPX372928/MyIPTV/main/standard.m3u",
+                "https://raw.githubusercontent.com/qwerttvv/Beijing-IPTV/master/IPTV-Unicom.m3u",
+                "https://raw.githubusercontent.com/billy21/Tvlist-awesome-m3u-m3u8/master/m3u/china-telecom.m3u",
+                "https://raw.githubusercontent.com/billy21/Tvlist-awesome-m3u-m3u8/master/m3u/china-unicom.m3u",
+                "https://raw.githubusercontent.com/billy21/Tvlist-awesome-m3u-m3u8/master/m3u/china-mobile.m3u"
+            ]
+            
+            # 添加已知的可靠源
+            urls.extend(known_repos)
+            
+            # 搜索新源
             for query in search_queries:
                 search_url = f"https://api.github.com/search/code?q={query}"
                 response = requests.get(search_url, headers=self.headers)
@@ -134,17 +157,48 @@ class IPTVCrawler:
         """搜索其他网站的IPTV资源"""
         urls = []
         try:
-            # 搜索常见的IPTV资源分享网站
+            # 国内IPTV资源站点
             iptv_sites = [
                 "https://iptv-org.github.io/iptv/countries/cn.m3u",
-                "https://iptv-org.github.io/iptv/categories/news.m3u",
-                "https://iptv-org.github.io/iptv/categories/entertainment.m3u"
+                "https://ghproxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/global.m3u",
+                "https://ghproxy.com/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
+                "https://epg.pw/test_channels.m3u",
+                "http://epg.51zmt.top:8000/e.xml",
+                "https://epg.112114.xyz/pp.xml"
             ]
             
-            for site in iptv_sites:
-                response = requests.get(site, headers=self.headers, timeout=10)
-                if response.status_code == 200:
-                    urls.append(site)
+            # 添加国内IPTV源
+            chinese_iptv_sources = [
+                "http://home.jundie.top:81/Cat/tv/live.txt",
+                "http://home.jundie.top:81/ray/tvlive.txt",
+                "https://mirror.ghproxy.com/https://raw.githubusercontent.com/drangjun/iptv/main/live.txt",
+                "http://124.223.212.38:83/tv/local.txt",
+                "https://raw.githubusercontent.com/joevess/IPTV/main/home.m3u8",
+                "http://xiaozeng.love:66/tv/local.txt"
+            ]
+            
+            # 添加各省市地方源
+            local_sources = [
+                "http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001014/index.m3u8",  # 北京卫视
+                "http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001015/index.m3u8",  # 东方卫视
+                "http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001016/index.m3u8",  # 浙江卫视
+                "http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001017/index.m3u8",  # 江苏卫视
+                # ... 可以继续添加更多地方台源
+            ]
+            
+            urls.extend(iptv_sites)
+            urls.extend(chinese_iptv_sources)
+            urls.extend(local_sources)
+            
+            for site in urls[:]:  # 使用切片创建副本进行迭代
+                try:
+                    response = requests.get(site, headers=self.headers, timeout=10)
+                    if response.status_code != 200:
+                        self.logger.warning(f"无法访问源: {site}")
+                        urls.remove(site)
+                except Exception as e:
+                    self.logger.warning(f"检查源失败 {site}: {str(e)}")
+                    urls.remove(site)
                     
         except Exception as e:
             self.logger.error(f"其他源搜索错误: {str(e)}")
@@ -154,11 +208,18 @@ class IPTVCrawler:
         """搜索IPTV提供商的公开资源"""
         urls = []
         try:
-            # 这里可以添加已知的IPTV提供商直播源
+            # 国内IPTV提供商和资源站
             provider_urls = [
-                # 添加可靠的IPTV提供商URL
+                "https://tv.cctv.com/live/",
+                "https://www.huya.com/g/2135",
+                "https://www.douyu.com/g_yxzb",
+                "http://api.cntv.cn/epg/epginfo",
+                "https://www.panda.tv/cate/xingwei"
             ]
-            urls.extend(provider_urls)
+            
+            # 这里可以添加爬取逻辑来从这些网站获取直播源
+            # 由于每个网站的结构不同，需要针对性处理
+            
         except Exception as e:
             self.logger.error(f"提供商源搜索错误: {str(e)}")
         return urls
@@ -388,29 +449,38 @@ class IPTVCrawler:
                 continue
                 
             if line.startswith('#EXTINF:'):
-                # 尝试不同的匹配模式
+                # 改进频道名称匹配
                 channel_name = None
                 name_patterns = [
                     r'tvg-name="(.*?)"',
-                    r',(.*?)$',
-                    r'group-title="(.*?)"'
+                    r'group-title="(.*?)"',
+                    r',(.*?)$'
                 ]
                 
                 for pattern in name_patterns:
                     match = re.search(pattern, line)
                     if match:
-                        channel_name = match.group(1)
+                        channel_name = match.group(1).strip()
+                        # 清理频道名称
+                        channel_name = re.sub(r'\[.*?\]|\(.*?\)', '', channel_name).strip()
                         break
                 
                 if channel_name:
                     current_channel = {'name': channel_name}
                     
-            elif line.startswith('http'):
+            elif line.startswith(('http', 'rtmp', 'rtsp')):
                 if current_channel:
-                    current_channel['url'] = line
-                    # 添加IP版本信息
-                    current_channel['ip_version'] = self._check_ip_version(line)
-                    channels.append(current_channel)
+                    # 过滤非中国大陆的源
+                    if not any(keyword in current_channel['name'].lower() 
+                             for keyword in ['usa', 'japan', 'korea', 'foreign']):
+                        # 检查是否是地方台
+                        is_local = any(city in current_channel['name'] 
+                                     for city in ['台', '广播电视', '新闻综合', '都市频道'])
+                        if is_local:
+                            current_channel['is_local'] = True
+                        current_channel['url'] = line
+                        current_channel['ip_version'] = self._check_ip_version(line)
+                        channels.append(current_channel)
                     current_channel = None
         
         return channels
