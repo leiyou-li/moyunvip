@@ -1,0 +1,128 @@
+name   名字: Update IPTV Sources
+
+on:   :
+  schedule:   日程安排:
+    - cron: '0 0 * * *'  # 每天运行一次
+  workflow_dispatch:      # 允许手动触发
+
+jobs:   工作:
+  update-iptv:
+    runs-on: ubuntu-latest   运行环境：Ubuntu最新版本
+    
+    steps:   步骤:
+    - uses: actions/checkout@v2用法：actions/checkout@v2
+    
+    - name: Set up Python   - 名称：安装Python
+      uses: actions/setup-python@v2用途：actions/setup-python@v2
+      with:   :
+        python-version: '3.x'   Python 版本：“3.x”
+    
+    - name: Install FFmpeg
+      run: |   运行:|
+        sudo apt-get update
+        sudo apt-get install -y ffmpeg
+    
+    - name: Install dependencies- 名称：安装依赖项
+      run: |   运行:|
+        python -m pip install --upgrade pip使用Python命令行界面，输入以下命令：
+```
+python -m pip install --upgrade pip使用Python命令行界面，输入以下命令：
+```
+python -m pip install --upgrade pip使用Python命令行界面，输入以下命令：
+```
+python -m pip install --upgrade pip使用Python命令行界面，输入以下命令：
+```
+python -m pip install --upgrade pip使用Python命令行界面，输入以下命令：
+```
+python -m pip install --upgrade pip使用Python命令行界面，输入以下命令：
+```
+python -m pip install --upgrade pip使用Python命令行界面，输入以下命令：
+```
+python -m pip install --upgrade pip使用Python命令行界面，输入以下命令：
+```
+python -m pip install --upgrade pip使用Python命令行界面，输入以下命令：
+```
+python -m pip install --upgrade pip使用Python命令行界面，输入以下命令：
+```
+python -m pip install --upgrade pip使用Python命令行界面，输入以下命令：
+```
+python -m pip install --upgrade pip使用Python命令行界面，输入以下命令：
+```
+python -m pip install --upgrade pip
+```
+这将安装或升级pip（Python包管理器）。
+```
+这将安装或升级pip（Python包管理器）。
+```
+这将安装或升级pip（Python包管理器）。
+```
+这将安装或升级pip（Python包管理器）。
+```
+这将安装或升级pip（Python包管理器）。
+```
+这将安装或升级pip（Python包管理器）。
+```
+这将安装或升级pip（Python包管理器）。
+```
+这将安装或升级pip（Python包管理器）。
+```
+这将安装或升级pip（Python包管理器）。
+```
+这将安装或升级pip（Python包管理器）。
+```
+这将安装或升级pip（Python包管理器）。
+```
+这将安装或升级pip（Python包管理器）。
+        pip install requests beautifulsoup4
+    
+    - name: Run crawler
+      run: python src/crawler.py
+    
+    - name: Commit changes
+      run: |   运行:|
+        git config --local user.email "action@github.com"使用以下命令将用户电子邮件地址设置为“action@github.com”（仅对当前目录有效）：
+```bash   ”“bash
+git config --local user.email "action@github.com"使用以下命令将用户电子邮件地址设置为“action@github.com”（仅对当前目录有效）：
+```bash   ”“bash
+git config --local user.email "action@github.com"使用以下命令将用户电子邮件地址设置为“action@github.com”（仅对当前目录有效）：
+```bash   ”“bash
+git config --local user.email "action@github.com"使用以下命令将用户电子邮件地址设置为“action@github.com”（仅对当前目录有效）：
+```bash   ”“bash
+git config --local user.email "action@github.com"使用以下命令将用户电子邮件地址设置为“action@github.com”（仅对当前目录有效）：
+```bash   ”“bash
+git config --local user.email "action@github.com"使用以下命令将用户电子邮件地址设置为“action@github.com”（仅对当前目录有效）：
+```bash   ”“bash
+git config --local user.email "action@github.com"使用以下命令将用户电子邮件地址设置为“action@github.com”（仅对当前目录有效）：
+```bash   ”“bash
+git config --local user.email "action@github.com"使用以下命令将用户电子邮件地址设置为“action@github.com”（仅对当前目录有效）：
+```bash   ”“bash
+git config --local user.email "action@github.com"使用以下命令将用户电子邮件地址设置为“action@github.com”（仅对当前目录有效）：
+```bash   ”“bash
+git config --local user.email "action@github.com"使用以下命令将用户电子邮件地址设置为“action@github.com”（仅对当前目录有效）：
+```bash   ”“bash
+git config --local user.email "action@github.com"使用以下命令将用户电子邮件地址设置为“action@github.com”（仅对当前目录有效）：
+```bash   ”“bash
+git config --local user.email "action@github.com"使用以下命令将用户电子邮件地址设置为“action@github.com”（仅对当前目录有效）：
+```bash   ”“bash
+git config --local user.email "action@github.com"使用以下命令将用户电子邮件地址设置为“action@github.com”（仅对当前目录有效）：
+```bash
+git config --local user.email "action@github.com"
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+        git config --local user.name "GitHub Action"
+        git add iptv.m3u iptv_ipv4.m3u iptv_ipv6.m3u iptv_both.m3u
+        git add iptv.txt iptv_ipv4.txt iptv_ipv6.txt iptv_both.txt
+        git commit -m "Update IPTV sources $(date +'%Y-%m-%d')" || echo "No changes to commit"
+        git push
+
