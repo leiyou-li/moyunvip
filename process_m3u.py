@@ -34,7 +34,7 @@ def get_channel_category(name, original_category):
         '足球': '咪咕「足球」',
         '体育': '咪咕「体育」',
         'TV': '咪咕「TV」',
-        'AKTV': '國際「AKTV」',
+        'AKTV': '國際「AKTV�����',
         '香港': '港澳「限制」',
         '澳门': '港澳「限制」',
         '台湾': '台湾「限制」',
@@ -119,6 +119,25 @@ def process_m3u(content):
         '韩国「KO」', '日本「JP」'
     ]
     
+    def get_cctv_order(name):
+        """获取央视频道的排序权重"""
+        if 'CCTV' not in name:
+            return 999  # 非央视频道返回较大的数字
+        
+        # 处理特殊情况
+        if 'CCTV5+' in name:
+            return 5.5
+        
+        try:
+            # 提取CCTV后面的数字
+            number = re.search(r'CCTV(\d+)', name)
+            if number:
+                return float(number.group(1))
+        except:
+            pass
+        
+        return 999
+    
     def get_category_order(channel):
         category = channel.get('category', '')
         if category is None:
@@ -126,10 +145,16 @@ def process_m3u(content):
         else:
             category = category.replace(',#genre#', '')
         
+        name = channel.get('name', '')
+        
         try:
-            return (category_order.index(category), channel.get('name', ''))
+            category_index = category_order.index(category)
+            # 对央视频道进行特殊排序
+            if category == '央视频道':
+                return (category_index, get_cctv_order(name), name)
+            return (category_index, name)
         except ValueError:
-            return (len(category_order), channel.get('name', ''))
+            return (len(category_order), name)
     
     channels.sort(key=get_category_order)
     return channels
@@ -139,10 +164,25 @@ def save_to_file(channels):
         # 获取当前时间
         update_time = datetime.now().strftime('%Y-%m-%d %H:%M')
         
-        # 写入固定的第一个分类名称、更新时间和MV地址
-        f.write("墨韵提供,#genre#\n")
-        f.write(f"更新时间：{update_time}\n")
-        f.write("起风了,https://gitlab.com/lr77/IPTV/-/raw/main/%E8%B5%B7%E9%A3%8E%E4%BA%86.mp4\n\n")
+        # 定义公告内容
+        announcements = [
+            {
+                "channel": "墨韵更新日期",
+                "entries": [
+                    {"name": update_time, "url": "https://gitlab.com/lr77/IPTV/-/raw/main/%E8%B5%B7%E9%A3%8E%E4%BA%86.mp4"}
+                ]
+            }
+        ]
+        
+        # 写入公告信息
+        for announcement in announcements:
+            f.write(f"{announcement['channel']},#genre#\n")
+            for entry in announcement['entries']:
+                if entry['name']:
+                    f.write(f"{entry['name']},{entry['url']}\n")
+                else:
+                    f.write(f"{entry['url']}\n")
+        f.write("\n")
         
         current_category = None
         
