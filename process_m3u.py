@@ -65,8 +65,8 @@ def get_channel_category(name, original_category):
         elif '广播' in original_category and '贰' in original_category:
             return '广播「贰」,#genre#'
     
-    # 如果没有匹配到特定分类，返回原始分类
-    return f"{original_category},#genre#" if original_category else None
+    # 如果没有匹配到特定分类，返回"其他"分类
+    return '其他频道,#genre#'
 
 def process_m3u(content):
     if not content:
@@ -109,7 +109,7 @@ def process_m3u(content):
                     seen_urls.add(line)
                 current_channel = {}
     
-    # 对���道进行分类排序，使用自定义排序顺序
+    # 对道进行分类排序，使用自定义排序顺序
     category_order = [
         '央视频道', '卫视频道', 'NewTV频道', 'iHOT频道', '数字频道',
         '地区频道', '咪咕「NBA」', '咪咕「足球」', '咪咕「体育」',
@@ -120,7 +120,12 @@ def process_m3u(content):
     ]
     
     def get_category_order(channel):
-        category = channel.get('category', '').replace(',#genre#', '')
+        category = channel.get('category', '')
+        if category is None:
+            category = ''
+        else:
+            category = category.replace(',#genre#', '')
+        
         try:
             return (category_order.index(category), channel.get('name', ''))
         except ValueError:
