@@ -8,11 +8,13 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write    # 添加写入权限
     
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3  # 更新到 v3
       with:
-        persist-credentials: false
+        persist-credentials: true  # 确保保留凭证
         fetch-depth: 0
     
     - name: Set up Python
@@ -30,7 +32,7 @@ jobs:
     
     - name: Commit files
       run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add moyun.txt
         git commit -m "Update channels list" -a || echo "No changes to commit"
@@ -39,4 +41,4 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.ref }} 
+        branch: ${{ github.ref }}
