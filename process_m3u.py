@@ -41,7 +41,8 @@ def process_m3u(content):
             if name_match:
                 name = name_match.group(1).strip()
                 if name.startswith('•'):
-                    current_category = name.replace('•', '').strip()
+                    # 去掉 • 符号，直接使用分类名
+                    current_category = name[1:].strip()
                     # 检查是否是需要跳过的分类
                     skip_category = (current_category in skip_categories)
                     continue
@@ -61,13 +62,22 @@ def process_m3u(content):
 
 def save_to_file(channels):
     with open('moyun.txt', 'w', encoding='utf-8') as f:
+        # 获取当前时间
+        update_time = datetime.now().strftime('%Y-%m-%d %H:%M')
+        
+        # 写入固定的第一个分类��称、更新时间和MV地址
+        f.write("墨韵提供,#genre#\n")
+        f.write(f"更新时间：{update_time}\n")
+        f.write("起风了,https://gitlab.com/lr77/IPTV/-/raw/main/%E8%B5%B7%E9%A3%8E%E4%BA%86.mp4\n")
+        
         current_category = None
         
         for channel in channels:
             # 如果遇到新的分类，添加分类标题
             if channel.get('category') and channel['category'] != current_category:
                 current_category = channel['category']
-                f.write(f"\n•{current_category}\n")
+                # 修改分类标题格式
+                f.write(f"\n{current_category},#genre#\n")
             
             # 写入频道信息
             if 'name' in channel and 'url' in channel:
