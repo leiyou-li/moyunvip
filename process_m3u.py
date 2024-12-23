@@ -19,6 +19,55 @@ def fetch_m3u_content():
     
     return '\n'.join(all_content) if all_content else None
 
+def get_channel_category(name, original_category):
+    # 特定分类的关键词映射
+    category_keywords = {
+        'CCTV': '央视频道',
+        'CETV': '央视频道',
+        '卫视': '卫视频道',
+        'NewTV': 'NewTV频道',
+        'iHOT': 'iHOT频道',
+        'SiTV': '数字频道',
+        '求索': '数字频道',
+        '咪咕': '咪咕频道',
+        'NBA': '咪咕「NBA」',
+        '足球': '咪咕「足球」',
+        '体育': '咪咕「体育」',
+        'TV': '咪咕「TV」',
+        'AKTV': '國際「AKTV」',
+        '香港': '港澳「限制」',
+        '澳门': '港澳「限制」',
+        '台湾': '台湾「限制」',
+        '广东': '广东「特产」',
+        '游戏': '游戏「赛事」',
+        '轮播': '影视「轮播」',
+        '广播': '广播「壹」',
+        'KBS': '韩国「KO」',
+        'MBC': '韩国「KO」',
+        'SBS': '韩国「KO」',
+        'WOWOW': '日本「JP」',
+        'NHK': '日本「JP」'
+    }
+    
+    # 检查频道名称中是否包含特定关键词
+    for keyword, category in category_keywords.items():
+        if keyword in name:
+            return f"{category},#genre#"
+    
+    # 根据原始分类进行特殊处理
+    if original_category:
+        if '国际' in original_category:
+            return '國際「匯集」,#genre#'
+        elif '特色' in original_category:
+            return '特色「混搭」,#genre#'
+        elif '埋堆' in original_category:
+            return '埋堆「轮播」,#genre#'
+        elif '广播' in original_category and '贰' in original_category:
+            return '广播「贰」,#genre#'
+    
+    # 如果没有匹配到特定分类，返回原始分类
+    return f"{original_category},#genre#" if original_category else None
+
 def process_m3u(content):
     if not content:
         return []
@@ -47,7 +96,9 @@ def process_m3u(content):
                     skip_category = (current_category in skip_categories)
                     continue
                 if not skip_category:  # 只有在不跳过的分类中才添加频道
-                    current_channel = {'name': name, 'category': current_category}
+                    # 根据频道名称确定分类
+                    category = get_channel_category(name, current_category)
+                    current_channel = {'name': name, 'category': category}
         elif not line.startswith('#'):
             # This is a URL line
             if current_channel and not skip_category and line not in seen_urls:
@@ -58,6 +109,24 @@ def process_m3u(content):
                     seen_urls.add(line)
                 current_channel = {}
     
+    # 对���道进行分类排序，使用自定义排序顺序
+    category_order = [
+        '央视频道', '卫视频道', 'NewTV频道', 'iHOT频道', '数字频道',
+        '地区频道', '咪咕「NBA」', '咪咕「足球」', '咪咕「体育」',
+        '咪咕「TV」', '國際「AKTV」', '國際「匯集」', '港澳「限制」',
+        '台湾「限制」', '广东「特产」', '特色「混搭」', '游戏「赛事」',
+        '埋堆「轮播」', '影视「轮播」', '广播「壹」', '广播「贰」',
+        '韩国「KO」', '日本「JP」'
+    ]
+    
+    def get_category_order(channel):
+        category = channel.get('category', '').replace(',#genre#', '')
+        try:
+            return (category_order.index(category), channel.get('name', ''))
+        except ValueError:
+            return (len(category_order), channel.get('name', ''))
+    
+    channels.sort(key=get_category_order)
     return channels
 
 def save_to_file(channels):
@@ -65,10 +134,10 @@ def save_to_file(channels):
         # 获取当前时间
         update_time = datetime.now().strftime('%Y-%m-%d %H:%M')
         
-        # 写入固定的第一个分类��称、更新时间和MV地址
+        # 写入固定的第一个分类名称、更新时间和MV地址
         f.write("墨韵提供,#genre#\n")
         f.write(f"更新时间：{update_time}\n")
-        f.write("起风了,https://gitlab.com/lr77/IPTV/-/raw/main/%E8%B5%B7%E9%A3%8E%E4%BA%86.mp4\n")
+        f.write("起风了,https://gitlab.com/lr77/IPTV/-/raw/main/%E8%B5%B7%E9%A3%8E%E4%BA%86.mp4\n\n")
         
         current_category = None
         
@@ -76,8 +145,7 @@ def save_to_file(channels):
             # 如果遇到新的分类，添加分类标题
             if channel.get('category') and channel['category'] != current_category:
                 current_category = channel['category']
-                # 修改分类标题格式
-                f.write(f"\n{current_category},#genre#\n")
+                f.write(f"{current_category}\n")
             
             # 写入频道信息
             if 'name' in channel and 'url' in channel:
