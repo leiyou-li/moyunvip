@@ -14,10 +14,13 @@ jobs:
         with:
           submodules: 'recursive'
       
-      - name: Initialize submodules
+      - name: Add and initialize submodule
         run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git submodule add https://github.com/leiyou-li/url-decrypt-service.git || true
           git submodule update --init --recursive
-          ls -la url-decrypt-service/  # 检查子模块内容
+          ls -la url-decrypt-service/
       
       - name: Set up Python
         uses: actions/setup-python@v3
