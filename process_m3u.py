@@ -16,38 +16,35 @@ def process_m3u():
     session.mount("http://", adapter)
     session.mount("https://", adapter)
 
-    # 设置完整的请求头
+    # 模拟 TVBOX 的请求头
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-        'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
-        'Accept-Encoding': 'gzip, deflate, br',
+        'User-Agent': 'okhttp/3.12.0',
+        'Accept': '*/*',
         'Connection': 'keep-alive',
-        'Cache-Control': 'max-age=0',
-        'Sec-Ch-Ua': '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
-        'Sec-Ch-Ua-Mobile': '?0',
-        'Sec-Ch-Ua-Platform': '"Windows"',
-        'Sec-Fetch-Dest': 'document',
-        'Sec-Fetch-Mode': 'navigate',
-        'Sec-Fetch-Site': 'none',
-        'Sec-Fetch-User': '?1',
-        'Upgrade-Insecure-Requests': '1',
-        'Pragma': 'no-cache'
+        'Accept-Encoding': 'gzip'
     }
 
-    # 获取原始 M3U 内容
     url = "https://tv.iill.top/m3u/Gather"
     max_retries = 3
     retry_delay = 5  # 秒
 
     for attempt in range(max_retries):
         try:
-            response = session.get(url, headers=headers, timeout=30)
+            print(f"Attempting to fetch M3U content, attempt {attempt + 1}")
+            # 先获取重定向链接
+            response = session.get(url, headers=headers, timeout=30, allow_redirects=False)
+            
+            if response.status_code in [301, 302, 303, 307, 308]:
+                redirect_url = response.headers['Location']
+                print(f"Following redirect to: {redirect_url}")
+                response = session.get(redirect_url, headers=headers, timeout=30)
+            
             response.raise_for_status()
             content = response.text
 
             # 检查是否获取到了正确的 M3U 内容
             if not content.startswith('#EXTM3U'):
+                print(f"Received content: {content[:200]}...")  # 打印前200个字符用于调试
                 raise ValueError("Invalid M3U content received")
 
             # 处理内容，保留原有分类和频道信息
@@ -55,7 +52,7 @@ def process_m3u():
             processed_lines = []
             
             # 添加 EPG 源信息到文件开头
-            processed_lines.append('#EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml"')
+            processed_lines.append('#EXTM3U x-tvg-url="https://epg.iill.top/epg"')
             for line in lines:
                 if line.startswith('#EXTINF:'):
                     # 保留原有的分组信息
@@ -81,7 +78,7 @@ def process_m3u():
                 f.write('\n'.join(processed_lines))
             
             print("Successfully updated M3U content")
-            break  # 成功获取数据，跳出重试循环
+            return  # 成功获取数据，退出函数
 
         except Exception as e:
             print(f"Attempt {attempt + 1} failed: {str(e)}")
