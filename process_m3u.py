@@ -2,18 +2,45 @@ import requests
 import re
 import time
 import json
+import random
+
+def get_random_ua():
+    # 常用的移动设备 User-Agent 列表
+    uas = [
+        'Mozilla/5.0 (Linux; Android 12; M2012K11AC) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.88 Mobile Safari/537.36',
+        'Mozilla/5.0 (Linux; Android 11; SAMSUNG SM-G998B) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/14.2 Chrome/87.0.4280.141 Mobile Safari/537.36',
+        'Mozilla/5.0 (iPhone; CPU iPhone OS 15_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1',
+        'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36',
+        'Mozilla/5.0 (Linux; Android 13; 22081212C Build/TKQ1.220829.002) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Mobile Safari/537.36'
+    ]
+    return random.choice(uas)
 
 def process_m3u():
     # 设置请求头
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Linux; Android 11; M2012K11AC) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.104 Mobile Safari/537.36',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-        'Accept-Language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
-        'Accept-Encoding': 'gzip, deflate',
+        'User-Agent': get_random_ua(),
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        'Accept-Encoding': 'gzip, deflate, br',
         'Connection': 'keep-alive',
+        'Cache-Control': 'no-cache',
+        'Pragma': 'no-cache',
+        'Sec-Ch-Ua': '"Not_A Brand";v="8", "Chromium";v="120"',
+        'Sec-Ch-Ua-Mobile': '?1',
+        'Sec-Ch-Ua-Platform': '"Android"',
+        'Sec-Fetch-Dest': 'document',
+        'Sec-Fetch-Mode': 'navigate',
+        'Sec-Fetch-Site': 'none',
+        'Sec-Fetch-User': '?1',
         'Upgrade-Insecure-Requests': '1',
-        'Cache-Control': 'max-age=0',
-        'Host': 'tv.iill.top'
+        'Host': 'tv.iill.top',
+        'X-Requested-With': 'XMLHttpRequest'
+    }
+
+    # 添加 cookies
+    cookies = {
+        '_ga': 'GA1.1.{}.{}'.format(random.randint(1000000000, 9999999999), random.randint(1000000000, 9999999999)),
+        '_ga_XXXXXXXXXXXX': 'GS1.1.{}.1.1.{}.0'.format(int(time.time()), int(time.time())),
     }
 
     # 尝试获取内容
@@ -25,11 +52,37 @@ def process_m3u():
         try:
             print(f"Attempt {attempt + 1} to fetch content...")
             session = requests.Session()
-            response = session.get(url, headers=headers, timeout=30)
+            
+            # 先访问主页
+            print("Accessing homepage first...")
+            session.get("https://tv.iill.top/", headers=headers, cookies=cookies, timeout=30)
+            
+            # 添加随机延迟
+            time.sleep(random.uniform(1, 3))
+            
+            # 更新随机 User-Agent
+            headers['User-Agent'] = get_random_ua()
+            
+            # 获取 M3U 内容
+            print("Fetching M3U content...")
+            response = session.get(
+                url,
+                headers=headers,
+                cookies=cookies,
+                timeout=30,
+                allow_redirects=True
+            )
+            
+            print(f"Response status code: {response.status_code}")
+            print(f"Response headers: {dict(response.headers)}")
+            
+            if response.status_code == 403:
+                print("Access forbidden, trying with different parameters...")
+                continue
+                
             response.raise_for_status()
             content = response.text
 
-            print(f"Response status code: {response.status_code}")
             print(f"Content type: {response.headers.get('content-type', 'unknown')}")
             print(f"Content preview: {content[:200]}")
 
@@ -74,6 +127,7 @@ def process_m3u():
                 return
             else:
                 print("No valid M3U content found in response")
+                print("Full response content:", content)
                 raise ValueError("Invalid content received")
 
         except Exception as e:
