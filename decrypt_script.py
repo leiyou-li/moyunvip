@@ -23,11 +23,16 @@ def fetch_and_decrypt():
         # 使用解密服务进行解密
         decrypted_data = decrypt_url(encrypted_data)
         
+        # 检查解密结果
+        if decrypted_data is None:
+            print("解密失败，返回结果为空")
+            return
+        
         # 将解密后的数据写入文件
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         with open('output.txt', 'w', encoding='utf-8') as f:
             f.write(f"# 更新时间：{timestamp}\n\n")
-            f.write(decrypted_data)
+            f.write(str(decrypted_data))  # 确保转换为字符串
             
         print("成功获取并解密数据")
         
