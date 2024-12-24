@@ -24,7 +24,7 @@ def fetch_and_decrypt():
         
         # 使用解密服务进行解密
         print("开始解密数据...")
-        decrypted_data = decrypt_url(url)  # 直接传入URL，让解密脚本处理请求和解密
+        decrypted_data = decrypt_url(encrypted_data)  # 传递加密的内容而不是URL
         
         # 检查解密结果
         if decrypted_data is None:
