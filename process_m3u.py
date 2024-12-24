@@ -1,16 +1,10 @@
-import requests
+import cloudscraper
 import re
 import time
 
 def process_m3u():
-    # 设置请求头
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-        'Accept-Language': 'en-US,en;q=0.5',
-        'Connection': 'keep-alive',
-        'Upgrade-Insecure-Requests': '1'
-    }
+    # 创建一个 CloudScraper 实例
+    scraper = cloudscraper.create_scraper()
 
     # 获取原始 M3U 内容，添加重试机制
     url = "https://tv.iill.top/m3u/Gather"
@@ -19,7 +13,7 @@ def process_m3u():
 
     for attempt in range(max_retries):
         try:
-            response = requests.get(url, headers=headers, timeout=30)
+            response = scraper.get(url, timeout=30)
             response.raise_for_status()  # 检查响应状态
             content = response.text
 
@@ -33,7 +27,6 @@ def process_m3u():
             
             # 添加 EPG 源信息到文件开头
             processed_lines.append('#EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml"')
-            
             for line in lines:
                 if line.startswith('#EXTINF:'):
                     # 保留原有的分组信息
