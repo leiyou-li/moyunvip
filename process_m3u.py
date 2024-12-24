@@ -1,46 +1,48 @@
 import requests
 import re
 import time
+import subprocess
+import json
 from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
 
+def get_m3u_content():
+    # 使用 curl 命令获取内容
+    curl_command = [
+        'curl',
+        'https://tv.iill.top/m3u/Gather',
+        '-H', 'Accept: */*',
+        '-H', 'Accept-Encoding: gzip, deflate',
+        '-H', 'Accept-Language: zh-CN,zh;q=0.9',
+        '-H', 'Cache-Control: no-cache',
+        '-H', 'Connection: keep-alive',
+        '-H', 'Host: tv.iill.top',
+        '-H', 'Pragma: no-cache',
+        '-H', 'Referer: https://tv.iill.top/',
+        '-H', 'User-Agent: okhttp/3.12.0',
+        '-H', 'X-Requested-With: XMLHttpRequest',
+        '--compressed',
+        '--insecure'
+    ]
+    
+    try:
+        result = subprocess.run(curl_command, capture_output=True, text=True)
+        if result.returncode != 0:
+            print(f"Curl error: {result.stderr}")
+            raise Exception("Curl command failed")
+        return result.stdout
+    except Exception as e:
+        print(f"Error running curl: {str(e)}")
+        raise
+
 def process_m3u():
-    # 创建 session 并设置重试策略
-    session = requests.Session()
-    retry_strategy = Retry(
-        total=3,
-        backoff_factor=1,
-        status_forcelist=[429, 500, 502, 503, 504],
-    )
-    adapter = HTTPAdapter(max_retries=retry_strategy)
-    session.mount("http://", adapter)
-    session.mount("https://", adapter)
-
-    # 模拟 TVBOX 的请求头
-    headers = {
-        'User-Agent': 'okhttp/3.12.0',
-        'Accept': '*/*',
-        'Connection': 'keep-alive',
-        'Accept-Encoding': 'gzip'
-    }
-
-    url = "https://tv.iill.top/m3u/Gather"
     max_retries = 3
     retry_delay = 5  # 秒
 
     for attempt in range(max_retries):
         try:
             print(f"Attempting to fetch M3U content, attempt {attempt + 1}")
-            # 先获取重定向链接
-            response = session.get(url, headers=headers, timeout=30, allow_redirects=False)
-            
-            if response.status_code in [301, 302, 303, 307, 308]:
-                redirect_url = response.headers['Location']
-                print(f"Following redirect to: {redirect_url}")
-                response = session.get(redirect_url, headers=headers, timeout=30)
-            
-            response.raise_for_status()
-            content = response.text
+            content = get_m3u_content()
 
             # 检查是否获取到了正确的 M3U 内容
             if not content.startswith('#EXTM3U'):
