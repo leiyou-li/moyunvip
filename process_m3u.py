@@ -3,14 +3,15 @@ import re
 import time
 import json
 
-def get_api_headers():
-    """获取 API 请求头"""
+def get_options_headers():
+    """获取 OPTIONS 请求头"""
     return {
         'authority': 'api.lige.chat',
         'accept': '*/*',
         'accept-encoding': 'gzip, deflate, br, zstd',
         'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
-        'content-type': 'application/json',
+        'access-control-request-headers': 'content-type',
+        'access-control-request-method': 'POST',
         'origin': 'https://lige.chat',
         'referer': 'https://lige.chat/',
         'sec-fetch-dest': 'empty',
@@ -19,35 +20,55 @@ def get_api_headers():
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0'
     }
 
+def get_post_headers():
+    """获取 POST 请求头"""
+    return {
+        'authority': 'api.lige.chat',
+        'accept': 'application/json, text/plain, */*',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+        'content-type': 'application/json',
+        'origin': 'https://lige.chat',
+        'referer': 'https://lige.chat/',
+        'sec-ch-ua': '"Microsoft Edge";v="131", "Chromium";v="131", "Not_A Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'same-site',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0'
+    }
+
 def process_m3u():
     session = requests.Session()
-    headers = get_api_headers()
-    
-    # API 端点和目标 URL
     api_url = "https://api.lige.chat/ua"
     target_url = "https://tv.iill.top/m3u/Gather"
     
     try:
-        print("Sending request to API...")
-        
-        # 先发送 OPTIONS 请求
-        options_response = session.options(api_url, headers=headers)
+        print("Sending OPTIONS request...")
+        # 发送 OPTIONS 请求
+        options_response = session.options(
+            api_url,
+            headers=get_options_headers(),
+            verify=True
+        )
         print(f"OPTIONS response status: {options_response.status_code}")
         
-        # 构造 POST 请求数据
-        data = {
-            'url': target_url
-        }
+        # 等待一小段时间模拟真实请求
+        time.sleep(1)
         
+        print("Sending POST request...")
         # 发送 POST 请求
         response = session.post(
             api_url,
-            headers=headers,
-            json=data,
+            headers=get_post_headers(),
+            json={'url': target_url},
             verify=True
         )
         
         print(f"Response status code: {response.status_code}")
+        print(f"Response headers: {dict(response.headers)}")
+        
         if response.status_code == 200:
             try:
                 content = response.json()
@@ -57,7 +78,7 @@ def process_m3u():
                     m3u_content = response.text
             except:
                 m3u_content = response.text
-                
+            
             print(f"Content preview: {str(m3u_content)[:200]}")
             
             # 检查并处理 M3U 内容
@@ -96,7 +117,7 @@ def process_m3u():
                         # 这是频道 URL
                         processed_lines.append(line)
                 
-                if len(processed_lines) > 1:  # 确保有实际内容
+                if len(processed_lines) > 1:
                     # 保存处理后的内容
                     with open('moyun.txt', 'w', encoding='utf-8') as f:
                         f.write('\n'.join(processed_lines))
