@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests  # 只需要 requests，因为解密脚本已经包含了所需的依赖
+          pip install requests
           
       - name: Run decryption script
         run: python decrypt_script.py
