@@ -1,5 +1,9 @@
 name: Decrypt and Generate File
 
+# 添加权限配置
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: '0 */12 * * *'  # 每12小时运行一次
@@ -27,8 +31,8 @@ jobs:
         
       - name: Commit and push if changed
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           git add output.txt
           git commit -m "Update decrypted content" -a || exit 0
           git push 
