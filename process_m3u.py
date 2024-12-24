@@ -3,6 +3,8 @@ import re
 import time
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -10,13 +12,15 @@ from selenium.webdriver.support import expected_conditions as EC
 def process_m3u():
     # 设置 Chrome 选项
     chrome_options = Options()
-    chrome_options.add_argument('--headless')  # 无界面模式
+    chrome_options.add_argument('--headless')
     chrome_options.add_argument('--no-sandbox')
     chrome_options.add_argument('--disable-dev-shm-usage')
+    chrome_options.add_argument('--disable-gpu')
     
     try:
-        # 初始化 WebDriver
-        driver = webdriver.Chrome(options=chrome_options)
+        # 使用 webdriver_manager 自动管理 ChromeDriver
+        service = Service(ChromeDriverManager().install())
+        driver = webdriver.Chrome(service=service, options=chrome_options)
         print("WebDriver initialized")
         
         # 访问页面
