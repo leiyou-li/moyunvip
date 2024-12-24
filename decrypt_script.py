@@ -36,27 +36,29 @@ def load_channel_config(config_file):
         return None
 
 def convert_m3u_to_txt(m3u_file, txt_file, channel_config):
-    """将M3U文件按��置转换为TXT文件"""
+    """将M3U文件按配置转换为TXT文件"""
     try:
         # 读取M3U文件
         with open(m3u_file, 'r', encoding='utf-8') as f:
             m3u_content = f.read()
             
         print(f"M3U文件大小: {os.path.getsize(m3u_file)} 字节")
+        print("开始解析频道信息...")
         
         # 解析M3U内容
         lines = m3u_content.split('\n')
         channels = {category: [] for category in channel_config.keys()}
         current_name = None
         current_resolution = None
+        current_url = None
         
         # 创建频道名称到分类的映射
         channel_to_category = {}
         for category, channel_list in channel_config.items():
             for channel in channel_list:
-                channel_to_category[channel] = category
+                channel_to_category[channel.lower()] = (category, channel)  # 保存原始名称
         
-        for line in lines:
+        for i, line in enumerate(lines):
             line = line.strip()
             if not line:
                 continue
@@ -65,29 +67,37 @@ def convert_m3u_to_txt(m3u_file, txt_file, channel_config):
                 # 从 #EXTINF 行提取频道名称
                 try:
                     info = line.split(',', 1)[1]
+                    name_part = info
+                    resolution = "1920*1080"  # 默认分辨率
+                    
                     if '[' in info and ']' in info:
                         name_part = info.split('[')[0].strip()
                         resolution = info[info.find('[')+1:info.find(']')]
-                    else:
-                        name_part = info.strip()
-                        resolution = "1920*1080"
-                        
+                    
+                    # 规范化名称进行匹配
+                    name_part = name_part.lower().replace('高清', '').replace('HD', '').strip()
+                    print(f"处理频道: {name_part}")
+                    
                     # 查找匹配的频道名称
-                    for config_name, category in channel_to_category.items():
-                        if config_name in name_part:
-                            current_name = config_name
+                    for config_name in channel_to_category:
+                        if config_name.lower() in name_part:
+                            category, original_name = channel_to_category[config_name]
+                            current_name = original_name
                             current_resolution = resolution
+                            print(f"找到匹配: {original_name} -> {category}")
                             break
-                except:
+                except Exception as e:
+                    print(f"处理频道名称时出错: {str(e)}")
                     current_name = None
                     current_resolution = None
                     
             elif not line.startswith('#') and current_name:
                 # 这是URL行
-                category = channel_to_category.get(current_name)
+                category = channel_to_category.get(current_name.lower())[0]
                 if category:
                     entry = f"{current_name}[{current_resolution}],{line}"
                     channels[category].append(entry)
+                    print(f"添加频道: {entry}")
                 current_name = None
                 current_resolution = None
         
@@ -101,12 +111,15 @@ def convert_m3u_to_txt(m3u_file, txt_file, channel_config):
                     f.write(f"{category},#genre#\n")
                     f.write('\n'.join(channels[category]))
                     f.write('\n\n')
+                    print(f"写入分类 {category}: {len(channels[category])} 个频道")
                 
         print(f"成功转换并保存到: {txt_file}")
         return True
         
     except Exception as e:
         print(f"转换过程中发生错误: {str(e)}")
+        import traceback
+        print(f"错误堆栈: {traceback.format_exc()}")
         return False
 
 def fetch_and_decrypt():
