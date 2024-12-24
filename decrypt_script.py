@@ -46,12 +46,17 @@ def convert_m3u_to_txt(m3u_file, txt_file, channel_config):
         print(f"M3U文件大小: {os.path.getsize(m3u_file)} 字节")
         print("开始解析频道信息...")
         
+        # 打印前几行内容用于调试
+        print("\nM3U文件内容预览:")
+        preview_lines = m3u_content.split('\n')[:10]
+        for line in preview_lines:
+            print(line)
+            
         # 解析M3U内容
         lines = m3u_content.split('\n')
         channels = {category: [] for category in channel_config.keys()}
         current_name = None
         current_resolution = None
-        current_url = None
         
         # 创建频道名称到分类的映射
         channel_to_category = {}
@@ -63,6 +68,7 @@ def convert_m3u_to_txt(m3u_file, txt_file, channel_config):
                     .replace('体育', '').replace('电影', '')\
                     .replace('音乐', '').replace('新闻', '')
                 channel_to_category[clean_name] = (category, channel)
+                print(f"配置频道映射: {clean_name} -> {channel}")
         
         for i, line in enumerate(lines):
             line = line.strip()
@@ -70,16 +76,34 @@ def convert_m3u_to_txt(m3u_file, txt_file, channel_config):
                 continue
                 
             if line.startswith('#EXTINF:'):
-                # 从 #EXTINF 行提取频道信息
                 try:
-                    # 提取 tvg-name 属性
+                    # 打印完整的 EXTINF 行用于调试
+                    print(f"\n处理EXTINF行: {line}")
+                    
+                    # 尝试不同的属性模式
+                    tvg_name = None
+                    
+                    # 尝试 tvg-name 属性
                     tvg_name_match = re.search(r'tvg-name="([^"]+)"', line)
                     if tvg_name_match:
                         tvg_name = tvg_name_match.group(1)
-                        # 清理 tvg-name，使其便于匹配
+                        print(f"找到 tvg-name: {tvg_name}")
+                    
+                    # 尝试 group-title 属性
+                    group_match = re.search(r'group-title="([^"]+)"', line)
+                    if group_match:
+                        group_title = group_match.group(1)
+                        print(f"找到 group-title: {group_title}")
+                    
+                    # 尝试逗号后的名称
+                    name_parts = line.split(',')
+                    if len(name_parts) > 1:
+                        comma_name = name_parts[1].strip()
+                        print(f"找到逗号后名称: {comma_name}")
+                    
+                    if tvg_name:
                         clean_tvg_name = tvg_name.lower().replace('-', '').replace('hd', '')\
                             .replace('高清', '').strip()
-                        print(f"处理频道 tvg-name: {tvg_name}")
                         
                         # 获取分辨率
                         resolution = "1920*1080"  # 默认分辨率
@@ -139,7 +163,7 @@ def fetch_and_decrypt():
         decrypted_data = decrypt_url(url)
         
         if decrypted_data is None:
-            print("解密���败，返回结果为空")
+            print("解密失败，返回结果为空")
             return
             
         print(f"解密后数据长度: {len(str(decrypted_data))}")
