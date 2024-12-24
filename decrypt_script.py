@@ -5,21 +5,12 @@ import os
 from datetime import datetime
 from pathlib import Path
 
-# 打印当前工作目录和文件列表
-print("当前工作目录:", os.getcwd())
-print("目录内容:", os.listdir())
-print("url-decrypt-service 目录内容:", os.listdir('./url-decrypt-service'))
-
-# 添加子模块到 Python 路径
-module_path = os.path.abspath('./url-decrypt-service')
-sys.path.insert(0, module_path)
-print("Python 路径:", sys.path)
-
+# 直接从本地导入解密脚本
 try:
     from 接口解密脚本 import decrypt_url
 except ImportError as e:
     print(f"导入错误详情: {str(e)}")
-    print("Error: 无法导入解密模块，请确保子模块已正确克隆")
+    print("Error: 无法导入解密模块")
     sys.exit(1)
 
 def fetch_and_decrypt():

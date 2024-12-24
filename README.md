@@ -8,5 +8,6 @@
 - 可以在 Actions 页面手动触发更新
 
 ## 文件说明
-- `decrypt_script.py`: 解密脚本
+- `decrypt_script.py`: 主解密脚本
+- `接口解密脚本.py`: 解密核心功能
 - `output.txt`: 解密后的输出文件 
