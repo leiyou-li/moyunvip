@@ -35,17 +35,17 @@ def fetch_and_decrypt():
         
         # 将解密后的数据写入文件
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        with open('output.txt', 'w', encoding='utf-8') as f:
+        with open('output.m3u', 'w', encoding='utf-8') as f:
             f.write(f"# 更新时间：{timestamp}\n\n")
             f.write(str(decrypted_data))
             
         print("成功获取并解密数据")
         
         # 验证文件是否写入成功
-        if os.path.exists('output.txt'):
-            with open('output.txt', 'r', encoding='utf-8') as f:
+        if os.path.exists('output.m3u'):
+            with open('output.m3u', 'r', encoding='utf-8') as f:
                 content = f.read()
-            print(f"\n文件大小: {os.path.getsize('output.txt')} 字节")
+            print(f"\n文件大小: {os.path.getsize('output.m3u')} 字节")
             print(f"文件内容预览: {content[:200]}...")
         else:
             print("警告：文件未创建成功")
