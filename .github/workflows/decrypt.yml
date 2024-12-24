@@ -14,6 +14,11 @@ jobs:
         with:
           submodules: 'recursive'
       
+      - name: Initialize submodules
+        run: |
+          git submodule update --init --recursive
+          ls -la url-decrypt-service/  # 检查子模块内容
+      
       - name: Set up Python
         uses: actions/setup-python@v3
         with:
@@ -25,7 +30,11 @@ jobs:
           pip install requests cryptography
           
       - name: Run decryption script
-        run: python decrypt_script.py
+        run: |
+          pwd
+          ls -la
+          python -c "import sys; print(sys.path)"
+          python decrypt_script.py
         
       - name: Commit and push if changed
         run: |
