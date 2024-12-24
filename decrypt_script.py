@@ -12,8 +12,31 @@ except ImportError as e:
     print("Error: 无法导入解密模块")
     sys.exit(1)
 
-def convert_m3u_to_txt(m3u_file, txt_file):
-    """将M3U文件转换为分类格式的TXT文件"""
+def load_channel_config(config_file):
+    """加载频道配置"""
+    categories = {}
+    current_category = None
+    
+    try:
+        with open(config_file, 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                    
+                if line.endswith('#genre#'):
+                    current_category = line.replace(',#genre#', '')
+                    categories[current_category] = []
+                elif current_category:
+                    categories[current_category].append(line)
+                    
+        return categories
+    except Exception as e:
+        print(f"加载配置文件出错: {str(e)}")
+        return None
+
+def convert_m3u_to_txt(m3u_file, txt_file, channel_config):
+    """将M3U文件按��置转换为TXT文件"""
     try:
         # 读取M3U文件
         with open(m3u_file, 'r', encoding='utf-8') as f:
@@ -23,9 +46,15 @@ def convert_m3u_to_txt(m3u_file, txt_file):
         
         # 解析M3U内容
         lines = m3u_content.split('\n')
-        channels = {}
+        channels = {category: [] for category in channel_config.keys()}
         current_name = None
         current_resolution = None
+        
+        # 创建频道名称到分类的映射
+        channel_to_category = {}
+        for category, channel_list in channel_config.items():
+            for channel in channel_list:
+                channel_to_category[channel] = category
         
         for line in lines:
             line = line.strip()
@@ -35,25 +64,28 @@ def convert_m3u_to_txt(m3u_file, txt_file):
             if line.startswith('#EXTINF:'):
                 # 从 #EXTINF 行提取频道名称
                 try:
-                    # 提取频道名称和分辨率
                     info = line.split(',', 1)[1]
                     if '[' in info and ']' in info:
-                        name_part = info.split('[')[0]
+                        name_part = info.split('[')[0].strip()
                         resolution = info[info.find('[')+1:info.find(']')]
-                        current_name = name_part.strip()
-                        current_resolution = resolution
                     else:
-                        current_name = info.strip()
-                        current_resolution = "1920*1080"  # 默认分辨率
+                        name_part = info.strip()
+                        resolution = "1920*1080"
+                        
+                    # 查找匹配的频道名称
+                    for config_name, category in channel_to_category.items():
+                        if config_name in name_part:
+                            current_name = config_name
+                            current_resolution = resolution
+                            break
                 except:
                     current_name = None
                     current_resolution = None
+                    
             elif not line.startswith('#') and current_name:
                 # 这是URL行
-                category = "央视高清"  # 默认分类
-                if current_name and "CCTV" in current_name:
-                    if category not in channels:
-                        channels[category] = []
+                category = channel_to_category.get(current_name)
+                if category:
                     entry = f"{current_name}[{current_resolution}],{line}"
                     channels[category].append(entry)
                 current_name = None
@@ -63,11 +95,12 @@ def convert_m3u_to_txt(m3u_file, txt_file):
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         with open(txt_file, 'w', encoding='utf-8') as f:
             f.write(f"# 更新时间：{timestamp}\n\n")
-            # 写入分类和频道
-            for category, entries in channels.items():
-                f.write(f"{category},#genre#\n")
-                f.write('\n'.join(entries))
-                f.write('\n\n')
+            # 按配置文件的顺序写入分类和频道
+            for category, channel_list in channel_config.items():
+                if channels[category]:  # 只写入有内容的分类
+                    f.write(f"{category},#genre#\n")
+                    f.write('\n'.join(channels[category]))
+                    f.write('\n\n')
                 
         print(f"成功转换并保存到: {txt_file}")
         return True
@@ -97,9 +130,16 @@ def fetch_and_decrypt():
             
         print("成功解密数据并保存为M3U格式")
         
+        # 加载频道配置
+        print("\n加载频道配置...")
+        channel_config = load_channel_config('channel_config.txt')
+        if not channel_config:
+            print("警告：无法加载频道配置")
+            return
+            
         # 转换为分类格式
-        print("\n开始转换为分类格式...")
-        if not convert_m3u_to_txt('output.txt', 'moyun.txt'):
+        print("\n开始按配置转换为分类格式...")
+        if not convert_m3u_to_txt('output.txt', 'moyun.txt', channel_config):
             print("警告：转换失败")
             return
             
@@ -113,4 +153,5 @@ def fetch_and_decrypt():
         raise
 
 if __name__ == "__main__":
+    fetch_and_decrypt()
     fetch_and_decrypt()
