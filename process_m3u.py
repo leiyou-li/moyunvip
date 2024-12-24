@@ -3,7 +3,7 @@ import re
 
 def process_m3u():
     # 获取原始 M3U 内容
-    url = "https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u"
+    url = "https://tv.iill.top/m3u/Gather"
     response = requests.get(url)
     content = response.text
     
