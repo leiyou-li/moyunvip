@@ -13,24 +13,21 @@ except ImportError as e:
     sys.exit(1)
 
 def convert_m3u_to_txt(m3u_file, txt_file):
-    """将M3U文件转换为TXT文件"""
-    print("\n开始从M3U文件读取内容...")
-    
+    """将M3U文件转换为分类格式的TXT文件"""
     try:
         # 读取M3U文件
         with open(m3u_file, 'r', encoding='utf-8') as f:
             m3u_content = f.read()
             
         print(f"M3U文件大小: {os.path.getsize(m3u_file)} 字节")
-        print(f"M3U内容预览: {m3u_content[:500]}...")
         
+        # 解析M3U内容
         lines = m3u_content.split('\n')
-        print(f"总行数: {len(lines)}")
-        
-        txt_lines = []
+        channels = {}
         current_name = None
+        current_resolution = None
         
-        for i, line in enumerate(lines):
+        for line in lines:
             line = line.strip()
             if not line:
                 continue
@@ -38,35 +35,41 @@ def convert_m3u_to_txt(m3u_file, txt_file):
             if line.startswith('#EXTINF:'):
                 # 从 #EXTINF 行提取频道名称
                 try:
-                    current_name = line.split(',', 1)[1]
-                    print(f"找到频道名称: {current_name}")
+                    # 提取频道名称和分辨率
+                    info = line.split(',', 1)[1]
+                    if '[' in info and ']' in info:
+                        name_part = info.split('[')[0]
+                        resolution = info[info.find('[')+1:info.find(']')]
+                        current_name = name_part.strip()
+                        current_resolution = resolution
+                    else:
+                        current_name = info.strip()
+                        current_resolution = "1920*1080"  # 默认分辨率
                 except:
                     current_name = None
-                    print(f"无法从行提取频道名称: {line}")
-            elif not line.startswith('#'):
-                # 这是一个URL行
-                if current_name:
-                    entry = f"{current_name},{line}"
-                    txt_lines.append(entry)
-                    print(f"添加条目: {entry}")
-                else:
-                    txt_lines.append(line)
-                    print(f"添加URL (无名称): {line}")
+                    current_resolution = None
+            elif not line.startswith('#') and current_name:
+                # 这是URL行
+                category = "央视高清"  # 默认分类
+                if current_name and "CCTV" in current_name:
+                    if category not in channels:
+                        channels[category] = []
+                    entry = f"{current_name}[{current_resolution}],{line}"
+                    channels[category].append(entry)
                 current_name = None
+                current_resolution = None
         
-        print(f"\n转换完成，共生成 {len(txt_lines)} 个条目")
-        result = '\n'.join(txt_lines)
-        
-        # 保存TXT文件
+        # 写入TXT文件
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         with open(txt_file, 'w', encoding='utf-8') as f:
             f.write(f"# 更新时间：{timestamp}\n\n")
-            f.write(result)
-            
-        print(f"成功保存到TXT文件: {txt_file}")
-        print(f"TXT文件大小: {os.path.getsize(txt_file)} 字节")
-        print(f"TXT内容预览: {result[:500]}...")
-        
+            # 写入分类和频道
+            for category, entries in channels.items():
+                f.write(f"{category},#genre#\n")
+                f.write('\n'.join(entries))
+                f.write('\n\n')
+                
+        print(f"成功转换并保存到: {txt_file}")
         return True
         
     except Exception as e:
@@ -85,7 +88,6 @@ def fetch_and_decrypt():
             return
             
         print(f"解密后数据长度: {len(str(decrypted_data))}")
-        print(f"解密后数据预览: {str(decrypted_data)[:200]}...")
         
         # 将解密后的数据写入M3U文件
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -95,8 +97,8 @@ def fetch_and_decrypt():
             
         print("成功解密数据并保存为M3U格式")
         
-        # 转换M3U文件为TXT格式
-        print("\n开始转换M3U文件为TXT格式...")
+        # 转换为分类格式
+        print("\n开始转换为分类格式...")
         if not convert_m3u_to_txt('output.txt', 'moyun.txt'):
             print("警告：转换失败")
             return
