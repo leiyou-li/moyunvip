@@ -3,6 +3,7 @@ import sys
 import os
 from datetime import datetime
 from pathlib import Path
+import re
 
 # 导入解密模块
 try:
@@ -56,7 +57,12 @@ def convert_m3u_to_txt(m3u_file, txt_file, channel_config):
         channel_to_category = {}
         for category, channel_list in channel_config.items():
             for channel in channel_list:
-                channel_to_category[channel.lower()] = (category, channel)  # 保存原始名称
+                # 处理配置中的频道名称，移除特殊字符
+                clean_name = channel.lower().replace('-', '').replace('综合', '')\
+                    .replace('财经', '').replace('少儿', '')\
+                    .replace('体育', '').replace('电影', '')\
+                    .replace('音乐', '').replace('新闻', '')
+                channel_to_category[clean_name] = (category, channel)
         
         for i, line in enumerate(lines):
             line = line.strip()
@@ -64,28 +70,29 @@ def convert_m3u_to_txt(m3u_file, txt_file, channel_config):
                 continue
                 
             if line.startswith('#EXTINF:'):
-                # 从 #EXTINF 行提取频道名称
+                # 从 #EXTINF 行提取频道信息
                 try:
-                    info = line.split(',', 1)[1]
-                    name_part = info
-                    resolution = "1920*1080"  # 默认分辨率
-                    
-                    if '[' in info and ']' in info:
-                        name_part = info.split('[')[0].strip()
-                        resolution = info[info.find('[')+1:info.find(']')]
-                    
-                    # 规范化名称进行匹配
-                    name_part = name_part.lower().replace('高清', '').replace('HD', '').strip()
-                    print(f"处理频道: {name_part}")
-                    
-                    # 查找匹配的频道名称
-                    for config_name in channel_to_category:
-                        if config_name.lower() in name_part:
-                            category, original_name = channel_to_category[config_name]
-                            current_name = original_name
-                            current_resolution = resolution
-                            print(f"找到匹配: {original_name} -> {category}")
-                            break
+                    # 提取 tvg-name 属性
+                    tvg_name_match = re.search(r'tvg-name="([^"]+)"', line)
+                    if tvg_name_match:
+                        tvg_name = tvg_name_match.group(1)
+                        # 清理 tvg-name，使其便于匹配
+                        clean_tvg_name = tvg_name.lower().replace('-', '').replace('hd', '')\
+                            .replace('高清', '').strip()
+                        print(f"处理频道 tvg-name: {tvg_name}")
+                        
+                        # 获取分辨率
+                        resolution = "1920*1080"  # 默认分辨率
+                        if '[' in line and ']' in line:
+                            resolution = line[line.find('[')+1:line.find(']')]
+                        
+                        # 查找匹配的频道名称
+                        for config_name, (category, original_name) in channel_to_category.items():
+                            if config_name in clean_tvg_name or clean_tvg_name in config_name:
+                                current_name = original_name
+                                current_resolution = resolution
+                                print(f"找到匹配: {tvg_name} -> {original_name} ({category})")
+                                break
                 except Exception as e:
                     print(f"处理频道名称时出错: {str(e)}")
                     current_name = None
@@ -93,11 +100,13 @@ def convert_m3u_to_txt(m3u_file, txt_file, channel_config):
                     
             elif not line.startswith('#') and current_name:
                 # 这是URL行
-                category = channel_to_category.get(current_name.lower())[0]
-                if category:
+                try:
+                    category = channel_to_category[current_name.lower().replace('-', '')][0]
                     entry = f"{current_name}[{current_resolution}],{line}"
                     channels[category].append(entry)
                     print(f"添加频道: {entry}")
+                except Exception as e:
+                    print(f"添加频道条目时出错: {str(e)}")
                 current_name = None
                 current_resolution = None
         
@@ -130,7 +139,7 @@ def fetch_and_decrypt():
         decrypted_data = decrypt_url(url)
         
         if decrypted_data is None:
-            print("解密失败，返回结果为空")
+            print("解密���败，返回结果为空")
             return
             
         print(f"解密后数据长度: {len(str(decrypted_data))}")
