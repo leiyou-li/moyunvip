@@ -133,8 +133,8 @@ def convert_m3u_to_txt(m3u_file, txt_file, channel_config):
                         # 如果频道不存在，创建一个新列表
                         if current_name not in channels[category]:
                             channels[category][current_name] = []
-                        # 添加新的URL条目，不包含分辨率信息
-                        entry = f"{current_name},{line}"  # 直接使用频道名和URL
+                        # 添加新的URL条目，确保只有一个逗号
+                        entry = f"{current_name.strip()},{line.strip()}"  # 使用strip()移除多余空格
                         channels[category][current_name].append(entry)
                         print(f"添加频道: {entry}")
                 except Exception as e:
@@ -159,7 +159,9 @@ def convert_m3u_to_txt(m3u_file, txt_file, channel_config):
                             # 写入该频道的所有URL
                             urls = channels[category][channel_name]
                             for entry in urls:
-                                f.write(entry + '\n')  # 直接写入，因为格式已经正确
+                                # 确保格式正确，只有一个逗号
+                                name, url = entry.split(',', 1)
+                                f.write(f"{name.strip()},{url.strip()}\n")
                     f.write('\n')
                     print(f"写入分类 {category}: {len(channels[category])} 个频道")
         
