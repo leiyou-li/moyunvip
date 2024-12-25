@@ -159,11 +159,10 @@ def convert_m3u_to_txt(m3u_file, txt_file, channel_config):
                             # 写入该频道的所有URL
                             urls = channels[category][channel_name]
                             for entry in urls:
-                                # 从原始条目中提取频道名和URL
-                                name_part = entry.split(',')[0].split('[')[0]  # 移除分辨率信息
-                                url_part = entry.split(',')[1]
-                                # 直接写入频道名和URL，不添加线路标识
-                                new_entry = f"{name_part},{url_part}"
+                                # 直接使用频道名称，不包含分辨率信息
+                                channel_info, url = entry.split(',', 1)  # 只在第一个逗号处分割
+                                channel_name = channel_info.split('[')[0].strip()  # 获取频道名称并移除空白
+                                new_entry = f"{channel_name},{url}"  # 不包含分辨率信息
                                 f.write(new_entry + '\n')
                     f.write('\n')
                     print(f"写入分类 {category}: {len(channels[category])} 个频道")
