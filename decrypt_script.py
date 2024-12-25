@@ -54,7 +54,10 @@ def convert_m3u_to_txt(m3u_file, txt_file, channel_config):
             
         # 解析M3U内容
         lines = m3u_content.split('\n')
-        channels = {category: [] for category in channel_config.keys()}
+        channels = {}
+        for category in channel_config.keys():
+            channels[category] = {}  # 使用字典而不是列表
+        
         current_name = None
         current_resolution = None
         
@@ -126,26 +129,45 @@ def convert_m3u_to_txt(m3u_file, txt_file, channel_config):
                 # 这是URL行
                 try:
                     category = channel_to_category[current_name.lower().replace('-', '')][0]
-                    entry = f"{current_name}[{current_resolution}],{line}"
-                    channels[category].append(entry)
-                    print(f"添加频道: {entry}")
+                    if category:
+                        # 如果频道不存在，创建一个新列表
+                        if current_name not in channels[category]:
+                            channels[category][current_name] = []
+                        # 添加新的URL条目
+                        entry = f"{current_name}[{current_resolution}],{line}"
+                        channels[category][current_name].append(entry)
+                        print(f"添加频道: {entry}")
                 except Exception as e:
                     print(f"添加频道条目时出错: {str(e)}")
                 current_name = None
                 current_resolution = None
         
-        # 写入TXT文件，修改时间戳格式
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        # 写入TXT文件
         with open(txt_file, 'w', encoding='utf-8') as f:
-            f.write(f"墨韵更新,#genre#\n\n")  # 修改为新的格式
+            # 写入更新日期
+            timestamp = datetime.now().strftime("%Y-%m-%d")
+            f.write(f"墨韵更新日期,#genre#\n")
+            f.write(f"{timestamp},https://gitlab.com/lr77/IPTV/-/raw/main/%E8%B5%B7%E9%A3%8E%E4%BA%86.mp4\n\n")
+            
             # 按配置文件的顺序写入分类和频道
             for category, channel_list in channel_config.items():
                 if channels[category]:  # 只写入有内容的分类
-                    f.write(f"{category},#genre#\n")
-                    f.write('\n'.join(channels[category]))
-                    f.write('\n\n')
+                    f.write(f"💮{category},#genre#\n")  # 添加emoji
+                    # 按照配置文件中的顺序遍历频道
+                    for channel_name in channel_list:
+                        if channel_name in channels[category]:
+                            # 写入该频道的所有URL
+                            urls = channels[category][channel_name]
+                            for entry in urls:
+                                # 从原始条目中提取频道名和URL
+                                name_part = entry.split(',')[0].split('[')[0]  # 移除分辨率信息
+                                url_part = entry.split(',')[1]
+                                # 直接写入频道名和URL，不添加线路标识
+                                new_entry = f"{name_part},{url_part}"
+                                f.write(new_entry + '\n')
+                    f.write('\n')
                     print(f"写入分类 {category}: {len(channels[category])} 个频道")
-                
+        
         print(f"成功转换并保存到: {txt_file}")
         return True
         
