@@ -134,10 +134,10 @@ def convert_m3u_to_txt(m3u_file, txt_file, channel_config):
                 current_name = None
                 current_resolution = None
         
-        # 写入TXT文件
+        # 写入TXT文件，修改时间戳格式
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         with open(txt_file, 'w', encoding='utf-8') as f:
-            f.write(f"# 更新时间：{timestamp}\n\n")
+            f.write(f"墨韵更新,#genre#\n\n")  # 修改为新的格式
             # 按配置文件的顺序写入分类和频道
             for category, channel_list in channel_config.items():
                 if channels[category]:  # 只写入有内容的分类
@@ -171,7 +171,7 @@ def fetch_and_decrypt():
         # 将解密后的数据写入M3U文件
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         with open('output.txt', 'w', encoding='utf-8') as f:
-            f.write(f"# 更新时间：{timestamp}\n\n")
+            f.write(f"墨韵更新,#genre#\n\n")  # 修改为新的格式
             f.write(str(decrypted_data))
             
         print("成功解密数据并保存为M3U格式")
