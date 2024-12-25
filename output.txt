@@ -1,4 +1,4 @@
-# 更新时间：2024-12-25 00:53:25
+墨韵更新,#genre#
 
 #EXTM3U x-tvg-url="https://epg.iill.top/epg"
 #EXTINF:-1 tvg-id="免费订阅" tvg-name="免费订阅" tvg-logo="https://epg.iill.top/logo/温馨提示.png" group-title="•温馨「提示」",免费订阅：请勿贩卖...
@@ -301,47 +301,47 @@ http://[2409:8087:5e00:24::1e]:6060/000000001000/4600001000000000111/1.m3u8
 http://[2409:8087:5e00:24::1e]:6060/000000001000/4600001000000000116/1.m3u8
 #INSERT_HERE
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WCBA」19:25 常规赛A组 山西竹叶青酒 VS 浙江稠州银行 清流播出
-https://tv.iill.top/Migu/MkjG3e
+https://tv.iill.top/Migu/JLXd0t
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WCBA」19:25 常规赛A组 山东赤水河酒 VS 石家庄英励 清流播出
-https://tv.iill.top/Migu/G7gIiA
+https://tv.iill.top/Migu/SL5DC4
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WCBA」19:20 常规赛A组 江苏南钢 VS 内蒙古农信 解说
-https://tv.iill.top/Migu/kkkBZv
+https://tv.iill.top/Migu/BqaPch
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:00 常规赛第22轮 上海久事vs福建晋江文旅 王冠证
-https://tv.iill.top/Migu/UuWNvZ
+https://tv.iill.top/Migu/VHv1bw
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第22轮 上海久事vs福建晋江文旅 陈渤胄
-https://tv.iill.top/Migu/TCVzsR
+https://tv.iill.top/Migu/Shii7H
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第22轮 上海久事vs福建晋江文旅 现场原声
-https://tv.iill.top/Migu/ciz1Mj
+https://tv.iill.top/Migu/jRpsTe
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第22轮 上海久事vs福建晋江文旅 刘时
-https://tv.iill.top/Migu/7zZqOc
+https://tv.iill.top/Migu/bv5i1y
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:00 常规赛第22轮 江苏肯帝亚vs宁波町渥 张浩岳
-https://tv.iill.top/Migu/4iuBlH
+https://tv.iill.top/Migu/jebzMr
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第22轮 江苏肯帝亚vs宁波町渥 现场原声
-https://tv.iill.top/Migu/W0uij1
+https://tv.iill.top/Migu/yiXnq5
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:00 常规赛第22轮 青岛国信制药vs天津先行者 邵化谦
-https://tv.iill.top/Migu/JRDwUC
+https://tv.iill.top/Migu/SGhQTQ
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第22轮 青岛国信制药vs天津先行者 现场原声
-https://tv.iill.top/Migu/YKnAj7
+https://tv.iill.top/Migu/8bGLaZ
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:00 常规赛第22轮 山东高速vs北京北汽 姜帆 苏群 裴优
-https://tv.iill.top/Migu/7x95Be
+https://tv.iill.top/Migu/Ti6xbF
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第22轮 山东高速vs北京北汽 罗森
-https://tv.iill.top/Migu/gbPbvX
+https://tv.iill.top/Migu/xFwzrM
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第22轮 山东高速vs北京北汽 刘芳宇
-https://tv.iill.top/Migu/OZ30G8
+https://tv.iill.top/Migu/gW8j1w
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第22轮 山东高速vs北京北汽 现场原声
-https://tv.iill.top/Migu/p3Ur5P
+https://tv.iill.top/Migu/pxpQoK
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:00 常规赛第22轮 广东东阳光vs浙江稠州金租 李天宇 陈正昊 魏欣怡
-https://tv.iill.top/Migu/uaWOgv
+https://tv.iill.top/Migu/1eKezh
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第22轮 广东东阳光vs浙江稠州金租 广东主队
-https://tv.iill.top/Migu/bnyyqd
+https://tv.iill.top/Migu/zkdCYp
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第22轮 广东东阳光vs浙江稠州金租 金哲豪
-https://tv.iill.top/Migu/W1p4YG
+https://tv.iill.top/Migu/UQjjka
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第22轮 广东东阳光vs浙江稠州金租 现场原声
-https://tv.iill.top/Migu/x60oro
+https://tv.iill.top/Migu/SXiUF6
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:00 常规赛第22轮 广东东阳光vs浙江稠州金租 星际广场
-https://tv.iill.top/Migu/1NLyB3
+https://tv.iill.top/Migu/d2MvrD
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WCBA」19:50 常规赛A组 新疆天山 VS 福建晋江众腾 解说
-https://tv.iill.top/Migu/04Yt2w
+https://tv.iill.top/Migu/kEKjzD
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.iill.top/logo/CCTV1.png" group-title="•咪咕「TV」",CCTV 1 综合
 https://tv.iill.top/migu/cctv1
 #EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://epg.iill.top/logo/CCTV2.png" group-title="•咪咕「TV」",CCTV 2 财经
