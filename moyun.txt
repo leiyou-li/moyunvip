@@ -1,5 +1,5 @@
 墨韵更新日期,#genre#
-2025-01-17,https://gitlab.com/lr77/IPTV/-/raw/main/%E8%B5%B7%E9%A3%8E%E4%BA%86.mp4
+2025-01-18,https://gitlab.com/lr77/IPTV/-/raw/main/%E8%B5%B7%E9%A3%8E%E4%BA%86.mp4
 
 💮💮央视频道,#genre#
 CCTV1,https://itv.iill.top/itv/PLTV/channel-id=ystenlive&Contentid=1000000005000265001&livemode=1&stbId=YanG-1989
