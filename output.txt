@@ -123,78 +123,62 @@ https://tv.iill.top/migu/dds
 https://tv.iill.top/migu/mgty
 
 #INSERT_HERE
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「英超」03:45 联赛 切尔西 vs 西汉姆联 苏东 徐阳 李子琪
-https://tv.iill.top/FB/t9mBKJ
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「西甲」03:50 联赛 赫罗纳 vs 拉斯帕尔马斯 鹿中原
-https://tv.iill.top/FB/1L1uHr
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:55 常规赛 奇才VS黄蜂 王凯
-https://tv.iill.top/NBA/prCWk7
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:55 常规赛 老鹰VS活塞 刘圳展
-https://tv.iill.top/NBA/Pdl0Im
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」08:25 常规赛 火箭VS尼克斯 连睿 周鹏
-https://tv.iill.top/NBA/oPft4c
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」08:55 常规赛 雄鹿VS雷霆 罗森
-https://tv.iill.top/NBA/KXAfyE
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」08:55 常规赛 马刺VS灰熊 王晓晨
-https://tv.iill.top/NBA/6K0z2C
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」08:55 常规赛 国王VS森林狼 邢晨
-https://tv.iill.top/NBA/PypIDU
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」09:55 常规赛 鹈鹕VS掘金 邵化谦 贾磊
-https://tv.iill.top/NBA/UrFaQh
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」09:55 常规赛 步行者VS爵士 张浩岳
-https://tv.iill.top/NBA/ovo1Sh
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」10:55 常规赛 太阳VS开拓者 孔德昕
-https://tv.iill.top/NBA/iP5uj9
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」10:45 常规赛 魔术VS勇士 姜帆 苏群 小七
-https://tv.iill.top/NBA/2GKvb2
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」10:55 常规赛 魔术VS勇士 拜月宁
-https://tv.iill.top/NBA/7kSQNC
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」10:00 残疾人组单打第三轮 残疾人组单打第三轮 3号桌
-https://tv.iill.top/Migu/JZawic
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」12:00 王曼昱3-1简彤娟 动漫晋级八强 王曼昱3-1简彤娟 动漫晋级八强 周泽昊 闫安
-https://tv.iill.top/Migu/hITyRu
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」12:00 王曼昱3-1简彤娟 动漫晋级八强 王曼昱3-1简彤娟 动漫晋级八强 1号桌
-https://tv.iill.top/Migu/O73Yn7
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」11:45 王曼昱3-1简彤娟 动漫晋级八强 王曼昱3-1简彤娟 动漫晋级八强 闫安
-https://tv.iill.top/Migu/PVgEyq
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」12:00 王曼昱3-1简彤娟 动漫晋级八强 王曼昱3-1简彤娟 动漫晋级八强 1号桌英文解说
-https://tv.iill.top/Migu/gXHAfq
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」15:15 残疾人组男单第三轮、女单半决赛 残疾人组男单第三轮、女单半决赛 2号桌
-https://tv.iill.top/Migu/GQ8NQZ
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」18:00 王楚钦PK冯耀恩 梁靖崑出战 王楚钦PK冯耀恩 梁靖崑出战 周冠达 侯英超
-https://tv.iill.top/Migu/d9DK1U
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」18:00 王楚钦PK冯耀恩 梁靖崑出战 王楚钦PK冯耀恩 梁靖崑出战 1号桌
-https://tv.iill.top/Migu/gCF7Sg
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」18:00 王楚钦PK冯耀恩 梁靖崑出战 王楚钦PK冯耀恩 梁靖崑出战 2号桌
-https://tv.iill.top/Migu/oJVjO2
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」18:35 王楚钦PK冯耀恩 梁靖崑出战 王楚钦PK冯耀恩 梁靖崑出战 3号桌
-https://tv.iill.top/Migu/rdidW2
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」19:10 王楚钦PK冯耀恩 梁靖崑出战 王楚钦PK冯耀恩 梁靖崑出战 4号桌
-https://tv.iill.top/Migu/RLbdpm
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」17:45 王楚钦PK冯耀恩 梁靖崑出战 王楚钦PK冯耀恩 梁靖崑出战 侯英超
-https://tv.iill.top/Migu/HBODQu
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」18:00 王楚钦PK冯耀恩 梁靖崑出战 王楚钦PK冯耀恩 梁靖崑出战 1号桌英文解说
-https://tv.iill.top/Migu/KXQ9hx
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「斯诺克」18:00 邢子豪迎战海顿·平尼 邢子豪迎战海顿·平尼 1号桌
-https://tv.iill.top/Migu/KbBe5a
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「斯诺克」18:00 邢子豪迎战海顿·平尼 邢子豪迎战海顿·平尼 2号桌
-https://tv.iill.top/Migu/fNosam
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「斯诺克」18:00 邢子豪迎战海顿·平尼 邢子豪迎战海顿·平尼 3号桌
-https://tv.iill.top/Migu/TUrlgI
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「斯诺克」18:00 邢子豪迎战海顿·平尼 邢子豪迎战海顿·平尼 4号桌
-https://tv.iill.top/Migu/WXFNAF
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「斯诺克」18:00 邢子豪迎战海顿·平尼 邢子豪迎战海顿·平尼 5号桌
-https://tv.iill.top/Migu/FzpHqS
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「斯诺克」18:00 邢子豪迎战海顿·平尼 邢子豪迎战海顿·平尼 6号桌
-https://tv.iill.top/Migu/VEbnyr
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WCBA」19:20 常规赛A组 上海浦发银行 VS 山西竹叶青酒 现场解说
-https://tv.iill.top/Migu/RZjrr6
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WCBA」19:20 常规赛A组 浙江稠州银行 VS 内蒙古农信 现场解说
-https://tv.iill.top/Migu/J5yr9f
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WCBA」19:25 常规赛B组 陕西天泽 VS 合肥文旅 清流播出
-https://tv.iill.top/Migu/zJmPhl
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WCBA」19:20 常规赛B组 黑龙江上东 VS 天津冠岚 现场解说
-https://tv.iill.top/Migu/kbKbWY
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「意大利杯」03:50 亚特兰大vs博洛尼亚 鲁靖明
+https://tv.iill.top/FB/2YEQnn
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」11:30 残疾人组女单决赛、男单半决赛 残疾人组女单决赛、男单半决赛 1号桌
+https://tv.iill.top/Migu/mFUbBe
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」11:30 残疾人组女单决赛、男单半决赛 残疾人组女单决赛、男单半决赛 2号桌
+https://tv.iill.top/Migu/QfiI4n
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」11:30 残疾人组女单决赛、男单半决赛 残疾人组女单决赛、男单半决赛 3号桌
+https://tv.iill.top/Migu/z52lHL
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」11:45 孙颖莎/王艺迪登场 薛飞PK张本智和 孙颖莎/王艺迪登场 薛飞PK张本智和 周泽昊 周雨
+https://tv.iill.top/Migu/An1ZoS
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」12:00 孙颖莎/王艺迪登场 薛飞PK张本智和 孙颖莎/王艺迪登场 薛飞PK张本智和 周泽昊 周雨
+https://tv.iill.top/Migu/IoEbSl
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」12:00 孙颖莎/王艺迪登场 薛飞PK张本智和 孙颖莎/王艺迪登场 薛飞PK张本智和 1号桌
+https://tv.iill.top/Migu/E0lKC8
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」12:00 孙颖莎/王艺迪登场 薛飞PK张本智和 孙颖莎/王艺迪登场 薛飞PK张本智和 2号桌
+https://tv.iill.top/Migu/9J4Y1m
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」12:35 孙颖莎/王艺迪登场 薛飞PK张本智和 孙颖莎/王艺迪登场 薛飞PK张本智和 3号桌
+https://tv.iill.top/Migu/iwJb25
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」12:00 孙颖莎/王艺迪登场 薛飞PK张本智和 孙颖莎/王艺迪登场 薛飞PK张本智和 4号桌
+https://tv.iill.top/Migu/eXMwgE
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」11:45 孙颖莎/王艺迪登场 薛飞PK张本智和 孙颖莎/王艺迪登场 薛飞PK张本智和 周雨
+https://tv.iill.top/Migu/2AxKBd
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」12:00 孙颖莎/王艺迪登场 薛飞PK张本智和 孙颖莎/王艺迪登场 薛飞PK张本智和 1号桌英文解说
+https://tv.iill.top/Migu/hzg1H1
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」15:30 残疾人组男单决赛 残疾人组男单决赛 1号桌
+https://tv.iill.top/Migu/Zxyt3R
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」17:45 孙颖莎PK木原美悠 王楚钦/林诗栋男双亮相 孙颖莎PK木原美悠 王楚钦/林诗栋男双亮相 周冠达 侯英超
+https://tv.iill.top/Migu/65HpN5
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」18:00 孙颖莎PK木原美悠 王楚钦/林诗栋男双亮相 孙颖莎PK木原美悠 王楚钦/林诗栋男双亮相 周冠达 侯英超
+https://tv.iill.top/Migu/ti252s
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」18:00 孙颖莎PK木原美悠 王楚钦/林诗栋男双亮相 孙颖莎PK木原美悠 王楚钦/林诗栋男双亮相 1号桌
+https://tv.iill.top/Migu/Fn0EeX
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」18:00 孙颖莎PK木原美悠 王楚钦/林诗栋男双亮相 孙颖莎PK木原美悠 王楚钦/林诗栋男双亮相 2号桌
+https://tv.iill.top/Migu/Erxciv
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」18:35 孙颖莎PK木原美悠 王楚钦/林诗栋男双亮相 孙颖莎PK木原美悠 王楚钦/林诗栋男双亮相 3号桌
+https://tv.iill.top/Migu/hjwdz2
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」18:00 孙颖莎PK木原美悠 王楚钦/林诗栋男双亮相 孙颖莎PK木原美悠 王楚钦/林诗栋男双亮相 4号桌
+https://tv.iill.top/Migu/8PoR2f
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」17:45 孙颖莎PK木原美悠 王楚钦/林诗栋男双亮相 孙颖莎PK木原美悠 王楚钦/林诗栋男双亮相 侯英超
+https://tv.iill.top/Migu/N9WSNl
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」18:00 孙颖莎PK木原美悠 王楚钦/林诗栋男双亮相 孙颖莎PK木原美悠 王楚钦/林诗栋男双亮相 1号桌英文解说
+https://tv.iill.top/Migu/pNLwEr
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「斯诺克」18:00 斯诺克威尔士资格赛Day2 斯诺克威尔士资格赛Day2 1号桌
+https://tv.iill.top/Migu/vhj1Zf
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「斯诺克」18:00 斯诺克威尔士资格赛Day2 斯诺克威尔士资格赛Day2 4号桌
+https://tv.iill.top/Migu/sO1TWx
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「斯诺克」18:00 斯诺克威尔士资格赛Day2 斯诺克威尔士资格赛Day2 2号桌
+https://tv.iill.top/Migu/YZ4qOy
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「斯诺克」18:00 斯诺克威尔士资格赛Day2 斯诺克威尔士资格赛Day2 3号桌
+https://tv.iill.top/Migu/4Kxa0G
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「斯诺克」18:00 斯诺克威尔士资格赛Day2 斯诺克威尔士资格赛Day2 5号桌
+https://tv.iill.top/Migu/FikpLP
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「斯诺克」18:00 斯诺克威尔士资格赛Day2 斯诺克威尔士资格赛Day2 6号桌
+https://tv.iill.top/Migu/SpUuul
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WCBA」19:25 常规赛A组 四川蜀道远达 VS 石家庄英励 清流播出
+https://tv.iill.top/Migu/1NADUC
 
 #EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://epg.iill.top/logo/凤凰中文.png" http-user-agent="FengWatch/5.4.14" group-title="•港澳「限制」",鳳凰衛視·中文「限UA」
 http://dns.yiandrive.com:15907/phenix/fhzw
