@@ -124,47 +124,37 @@ https://tv.iill.top/migu/mgty
 
 #INSERT_HERE
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」09:30 【训练馆视角】直击国乒赛前训练 【训练馆视角】直击国乒赛前训练 训练馆
-https://tv.iill.top/Migu/0JC02l
+https://tv.iill.top/Migu/lGdMaB
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」10:00 亚洲杯公园 亚洲杯公园 亚洲杯公园
-https://tv.iill.top/Migu/hfs8T0
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」10:30 孙颖莎首秀 黄友政PK张本智和 孙颖莎首秀 黄友政PK张本智和 候场区
-https://tv.iill.top/Migu/sNIal7
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」11:00 孙颖莎首秀 黄友政PK张本智和 孙颖莎首秀 黄友政PK张本智和 小马哥 肖扬
-https://tv.iill.top/Migu/zOz2Hj
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」11:00 孙颖莎首秀 黄友政PK张本智和 孙颖莎首秀 黄友政PK张本智和 1号桌
-https://tv.iill.top/Migu/bjijrO
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」11:00 孙颖莎首秀 黄友政PK张本智和 孙颖莎首秀 黄友政PK张本智和 2号桌
-https://tv.iill.top/Migu/nwZxs4
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」11:00 孙颖莎首秀 黄友政PK张本智和 孙颖莎首秀 黄友政PK张本智和 3号桌
-https://tv.iill.top/Migu/Hf5171
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」11:00 孙颖莎首秀 黄友政PK张本智和 孙颖莎首秀 黄友政PK张本智和 混采区
-https://tv.iill.top/Migu/DV9Bqg
+https://tv.iill.top/Migu/SSOavS
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「KPL」13:40 西安WE vs 上海EDG.M 西安WE vs 上海EDG.M 官方解说
-https://tv.iill.top/Migu/E9Tsty
+https://tv.iill.top/Migu/AB8zrz
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTA」15:00 第四比赛日：斯瓦泰克出战 郑钦文止步 第四比赛日：斯瓦泰克出战 郑钦文止步 赛场原声
+https://tv.iill.top/Migu/u0KWef
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTA」19:00 第四比赛日：斯瓦泰克出战 郑钦文止步 第四比赛日：斯瓦泰克出战 郑钦文止步 房朕
+https://tv.iill.top/Migu/sPZov7
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTA」15:00 WTA1000迪拜站女单第二轮：郑钦文1-2斯特恩斯 郑钦文1-2斯特恩斯 蔡凯臣
+https://tv.iill.top/Migu/9TIYnr
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」16:30 【训练馆视角】直击国乒赛前训练 【训练馆视角】直击国乒赛前训练 训练馆
-https://tv.iill.top/Migu/oN1rzs
+https://tv.iill.top/Migu/7LG06c
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「KPL」17:00 济南RW侠 vs 深圳KLG 济南RW侠 vs 深圳KLG 官方解说
-https://tv.iill.top/Migu/q9Oi5g
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTA」18:00 女单第四比赛日 女单第四比赛日 赛场原声
-https://tv.iill.top/Migu/qru9WK
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」17:30 林高远PK黄彦诚 王楚钦对阵阿拉米扬 林高远PK黄彦诚 王楚钦对阵阿拉米扬 候场区
-https://tv.iill.top/Migu/aiIL5t
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」17:30 林高远PK黄彦诚 王楚钦对阵阿拉米扬 林高远PK黄彦诚 王楚钦对阵阿拉米扬 周冠达 侯英超
-https://tv.iill.top/Migu/cDNsah
+https://tv.iill.top/Migu/Ei3fvR
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」18:00 林高远PK黄彦诚 王楚钦对阵阿拉米扬 林高远PK黄彦诚 王楚钦对阵阿拉米扬 周冠达 侯英超
-https://tv.iill.top/Migu/oeDzO4
+https://tv.iill.top/Migu/btG85G
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」17:30 林高远PK黄彦诚 王楚钦对阵阿拉米扬 林高远PK黄彦诚 王楚钦对阵阿拉米扬 候场区
+https://tv.iill.top/Migu/GyiKMC
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」17:30 林高远PK黄彦诚 王楚钦对阵阿拉米扬 林高远PK黄彦诚 王楚钦对阵阿拉米扬 侯英超
-https://tv.iill.top/Migu/8CyR7i
+https://tv.iill.top/Migu/1U1ZBQ
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」18:00 林高远PK黄彦诚 王楚钦对阵阿拉米扬 林高远PK黄彦诚 王楚钦对阵阿拉米扬 1号桌
-https://tv.iill.top/Migu/NSF5kY
+https://tv.iill.top/Migu/HGQl7W
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」18:00 林高远PK黄彦诚 王楚钦对阵阿拉米扬 林高远PK黄彦诚 王楚钦对阵阿拉米扬 2号桌
-https://tv.iill.top/Migu/cXhTQ6
+https://tv.iill.top/Migu/3johry
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」18:00 林高远PK黄彦诚 王楚钦对阵阿拉米扬 林高远PK黄彦诚 王楚钦对阵阿拉米扬 3号桌
-https://tv.iill.top/Migu/d5pm2y
+https://tv.iill.top/Migu/ytnW9P
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」18:00 林高远PK黄彦诚 王楚钦对阵阿拉米扬 林高远PK黄彦诚 王楚钦对阵阿拉米扬 混采区
-https://tv.iill.top/Migu/2HrACV
+https://tv.iill.top/Migu/l2Uz55
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「KPL」20:00 广州TTG vs 长沙TES.A 广州TTG vs 长沙TES.A 官方解说
-https://tv.iill.top/Migu/sWcFbB
+https://tv.iill.top/Migu/S8y1PI
 
 #EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://epg.iill.top/logo/凤凰中文.png" http-user-agent="FengWatch/5.4.14" group-title="•港澳「限制」",鳳凰衛視·中文「限UA」
 http://dns.yiandrive.com:15907/phenix/fhzw
