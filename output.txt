@@ -123,38 +123,62 @@ https://tv.iill.top/migu/dds
 https://tv.iill.top/migu/mgty
 
 #INSERT_HERE
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「亚冠二级」01:50 八分之一决赛 布赖代合作 vs 艾尔瓦克拉 鹿中原
+https://tv.iill.top/FB/vHl2Nd
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「英超」03:15 联赛 阿斯顿维拉 vs 利物浦 詹俊 张路
+https://tv.iill.top/FB/zY5j05
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「亚冠二级」17:50 八分之一决赛 全北现代 vs 泰国港口局 鲁靖明
+https://tv.iill.top/FB/4yAjVg
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「亚冠二级」19:50 八分之一决赛 本国联队 vs 蒙通联 谭逸雄
+https://tv.iill.top/FB/Ppgexp
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」10:45 常规赛 黄蜂vs湖人 杨健 孙悦 裴优
+https://tv.iill.top/NBA/23CoBl
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」10:55 常规赛 黄蜂vs湖人 郑泽鹏
+https://tv.iill.top/NBA/HbdgZJ
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」10:55 常规赛 黄蜂vs湖人 英文原声
+https://tv.iill.top/NBA/PHoPai
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」09:30 【训练馆视角】直击国乒赛前训练 【训练馆视角】直击国乒赛前训练 训练馆
-https://tv.iill.top/Migu/lGdMaB
+https://tv.iill.top/Migu/Iz9uPl
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」10:00 亚洲杯公园 亚洲杯公园 亚洲杯公园
-https://tv.iill.top/Migu/SSOavS
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「KPL」13:40 西安WE vs 上海EDG.M 西安WE vs 上海EDG.M 官方解说
-https://tv.iill.top/Migu/AB8zrz
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTA」15:00 第四比赛日：斯瓦泰克出战 郑钦文止步 第四比赛日：斯瓦泰克出战 郑钦文止步 赛场原声
-https://tv.iill.top/Migu/u0KWef
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTA」19:00 第四比赛日：斯瓦泰克出战 郑钦文止步 第四比赛日：斯瓦泰克出战 郑钦文止步 房朕
-https://tv.iill.top/Migu/sPZov7
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTA」15:00 WTA1000迪拜站女单第二轮：郑钦文1-2斯特恩斯 郑钦文1-2斯特恩斯 蔡凯臣
-https://tv.iill.top/Migu/9TIYnr
+https://tv.iill.top/Migu/WD2uFn
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」10:30 孙颖莎迎战阿库拉 王艺迪PK平野美宇 孙颖莎迎战阿库拉 王艺迪PK平野美宇 候场区
+https://tv.iill.top/Migu/ZScPCc
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」11:00 孙颖莎迎战阿库拉 王艺迪PK平野美宇 孙颖莎迎战阿库拉 王艺迪PK平野美宇 周冠达 小马哥
+https://tv.iill.top/Migu/NMvhYk
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」11:00 孙颖莎迎战阿库拉 王艺迪PK平野美宇 孙颖莎迎战阿库拉 王艺迪PK平野美宇 1号桌
+https://tv.iill.top/Migu/8yNbpC
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」11:00 孙颖莎迎战阿库拉 王艺迪PK平野美宇 孙颖莎迎战阿库拉 王艺迪PK平野美宇 2号桌
+https://tv.iill.top/Migu/euhOpO
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」11:00 孙颖莎迎战阿库拉 王艺迪PK平野美宇 孙颖莎迎战阿库拉 王艺迪PK平野美宇 3号桌
+https://tv.iill.top/Migu/GaKm5e
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」11:00 孙颖莎迎战阿库拉 王艺迪PK平野美宇 孙颖莎迎战阿库拉 王艺迪PK平野美宇 混采区
+https://tv.iill.top/Migu/8IcNrE
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「KPL」13:40 Hero久竞 vs 武汉eStarPro Hero久竞 vs 武汉eStarPro 官方解说
+https://tv.iill.top/Migu/TRTbaL
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」16:30 【训练馆视角】直击国乒赛前训练 【训练馆视角】直击国乒赛前训练 训练馆
-https://tv.iill.top/Migu/7LG06c
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「KPL」17:00 济南RW侠 vs 深圳KLG 济南RW侠 vs 深圳KLG 官方解说
-https://tv.iill.top/Migu/Ei3fvR
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」18:00 林高远PK黄彦诚 王楚钦对阵阿拉米扬 林高远PK黄彦诚 王楚钦对阵阿拉米扬 周冠达 侯英超
-https://tv.iill.top/Migu/btG85G
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」17:30 林高远PK黄彦诚 王楚钦对阵阿拉米扬 林高远PK黄彦诚 王楚钦对阵阿拉米扬 候场区
-https://tv.iill.top/Migu/GyiKMC
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」17:30 林高远PK黄彦诚 王楚钦对阵阿拉米扬 林高远PK黄彦诚 王楚钦对阵阿拉米扬 侯英超
-https://tv.iill.top/Migu/1U1ZBQ
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」18:00 林高远PK黄彦诚 王楚钦对阵阿拉米扬 林高远PK黄彦诚 王楚钦对阵阿拉米扬 1号桌
-https://tv.iill.top/Migu/HGQl7W
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」18:00 林高远PK黄彦诚 王楚钦对阵阿拉米扬 林高远PK黄彦诚 王楚钦对阵阿拉米扬 2号桌
-https://tv.iill.top/Migu/3johry
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」18:00 林高远PK黄彦诚 王楚钦对阵阿拉米扬 林高远PK黄彦诚 王楚钦对阵阿拉米扬 3号桌
-https://tv.iill.top/Migu/ytnW9P
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」18:00 林高远PK黄彦诚 王楚钦对阵阿拉米扬 林高远PK黄彦诚 王楚钦对阵阿拉米扬 混采区
-https://tv.iill.top/Migu/l2Uz55
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「KPL」20:00 广州TTG vs 长沙TES.A 广州TTG vs 长沙TES.A 官方解说
-https://tv.iill.top/Migu/S8y1PI
+https://tv.iill.top/Migu/ahFAMh
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「KPL」17:00 北京WB vs 情久 北京WB vs 情久 官方解说
+https://tv.iill.top/Migu/oKq0SR
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTA」18:00 斯瓦泰克迎战安德列娃 陶森冲4强 斯瓦泰克迎战安德列娃 陶森冲4强 赛场原声
+https://tv.iill.top/Migu/zhQnNm
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」17:30 陈垣宇vs林昀儒 王楚钦、王曼昱出战 陈垣宇vs林昀儒 王楚钦、王曼昱出战 候场区
+https://tv.iill.top/Migu/sbi1rZ
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」17:30 陈垣宇vs林昀儒 王楚钦、王曼昱出战 陈垣宇vs林昀儒 王楚钦、王曼昱出战 周冠达 侯英超
+https://tv.iill.top/Migu/ugNylv
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」18:00 陈垣宇vs林昀儒 王楚钦、王曼昱出战 陈垣宇vs林昀儒 王楚钦、王曼昱出战 周冠达 侯英超
+https://tv.iill.top/Migu/ZQO1X3
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」17:30 陈垣宇vs林昀儒 王楚钦、王曼昱出战 陈垣宇vs林昀儒 王楚钦、王曼昱出战 侯英超
+https://tv.iill.top/Migu/wYtmjp
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」18:00 陈垣宇vs林昀儒 王楚钦、王曼昱出战 陈垣宇vs林昀儒 王楚钦、王曼昱出战 1号桌
+https://tv.iill.top/Migu/mZf3A9
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」18:00 陈垣宇vs林昀儒 王楚钦、王曼昱出战 陈垣宇vs林昀儒 王楚钦、王曼昱出战 2号桌
+https://tv.iill.top/Migu/MPxvSF
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」18:00 陈垣宇vs林昀儒 王楚钦、王曼昱出战 陈垣宇vs林昀儒 王楚钦、王曼昱出战 3号桌
+https://tv.iill.top/Migu/M5RLjY
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「深圳亚洲杯」18:00 陈垣宇vs林昀儒 王楚钦、王曼昱出战 陈垣宇vs林昀儒 王楚钦、王曼昱出战 混采区
+https://tv.iill.top/Migu/flXgBA
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「KPL」20:00 苏州KSG vs 上海RNG.M 苏州KSG vs 上海RNG.M 官方解说
+https://tv.iill.top/Migu/k3RnEP
 
 #EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://epg.iill.top/logo/凤凰中文.png" http-user-agent="FengWatch/5.4.14" group-title="•港澳「限制」",鳳凰衛視·中文「限UA」
 http://dns.yiandrive.com:15907/phenix/fhzw
