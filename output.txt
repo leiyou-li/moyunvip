@@ -124,67 +124,73 @@ https://tv.iill.top/migu/mgty
 
 #INSERT_HERE
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「意甲」03:30 联赛 博洛尼亚 vs AC米兰 石庆圣 李彦
-https://tv.iill.top/FB/dS9IKR
+https://tv.iill.top/FB/dCeQCE
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「意甲」03:30 联赛 博洛尼亚 vs AC米兰 石庆圣 李彦
-https://tv.iill.top/FB/tlcyUR
+https://tv.iill.top/FB/Wjcfi7
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「英超」03:50 联赛 西汉姆联 vs 莱斯特城 刘焕
-https://tv.iill.top/FB/KseeKI
+https://tv.iill.top/FB/iGpLxE
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「中超」15:00 联赛 山东泰山 vs 大连英博 孙雨轩 黄健翔 林梦鸽
-https://tv.iill.top/FB/6YKDrf
+https://tv.iill.top/FB/8TsYCX
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「中超」15:15 联赛 山东泰山 vs 大连英博 赛场原声
-https://tv.iill.top/FB/Gmxl7M
+https://tv.iill.top/FB/sqLryV
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「中超」15:30 联赛 山东泰山 vs 大连英博 智能解说
+https://tv.iill.top/FB/BqMTrY
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「中超」19:00 联赛 上海海港 vs 长春亚泰 苏东 杨晨
-https://tv.iill.top/FB/hM8M5Y
+https://tv.iill.top/FB/fnMBwq
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「中超」19:20 联赛 上海海港 vs 长春亚泰 赛场原声
-https://tv.iill.top/FB/Vy2QCf
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:45 常规赛 勇士vs魔术 连睿 李根 小七
-https://tv.iill.top/NBA/4FqAGd
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:55 常规赛 勇士vs魔术 董倡硕
-https://tv.iill.top/NBA/Kwt8Ta
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」08:25 常规赛 掘金VS雄鹿 吴博文
-https://tv.iill.top/NBA/Ct0Zqf
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」09:25 常规赛 黄蜂vs独行侠 蔡凯臣 周赫
-https://tv.iill.top/NBA/2nY04o
+https://tv.iill.top/FB/iBi5OT
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「中超」19:35 联赛 上海海港 vs 长春亚泰 智能解说
+https://tv.iill.top/FB/RDj2pN
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:45 常规赛 勇士VS魔术 连睿 李根 小七
+https://tv.iill.top/NBA/esSTAt
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:55 常规赛 勇士VS魔术 董倡硕
+https://tv.iill.top/NBA/SChTHU
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」08:55 常规赛 掘金VS雄鹿 吴博文
+https://tv.iill.top/NBA/b9LKy0
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」09:25 常规赛 黄蜂VS独行侠 蔡凯臣 周赫
+https://tv.iill.top/NBA/OkXhxN
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」09:55 常规赛 鹈鹕VS太阳 孙博 孔德昕
-https://tv.iill.top/NBA/h3vVmJ
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」11:15 常规赛 森林狼vs湖人 张浩岳 徐咏 王羽希
-https://tv.iill.top/NBA/1HoquP
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」11:25 常规赛 森林狼vs湖人 郑泽鹏
-https://tv.iill.top/NBA/7IMOCY
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTA」03:00 女单第二轮：科斯蒂亚、凯斯勒、格拉切娃出战 女单第二轮：科斯蒂亚、凯斯勒、格拉切娃出战 赛场原声
-https://tv.iill.top/Migu/KFRhYj
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTA」04:00 女单第二轮：玛雅、纳瓦罗出战 女单第二轮：玛雅、纳瓦罗出战 赛场原声
-https://tv.iill.top/Migu/rcQhNP
+https://tv.iill.top/NBA/GwVYiB
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」11:15 常规赛 森林狼VS湖人 张浩岳 徐咏 王羽希
+https://tv.iill.top/NBA/cExkWF
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」11:25 常规赛 森林狼VS湖人 郑泽鹏
+https://tv.iill.top/NBA/17017I
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTA」03:00 科斯蒂亚、凯斯勒、多勒海德取胜 科斯蒂亚、凯斯勒、多勒海德取胜 赛场原声
+https://tv.iill.top/Migu/AshyS3
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTA」04:00 女单第二轮：纳瓦罗轻松晋级 女单第二轮：纳瓦罗轻松晋级 赛场原声
+https://tv.iill.top/Migu/Yn8JJS
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」10:00 2020-21赛季全明星正赛回顾 2020-21赛季全明星正赛回顾 解说
-https://tv.iill.top/Migu/lCvAua
+https://tv.iill.top/Migu/irG6MQ
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」12:00 2021-22赛季全明星正赛回顾 2021-22赛季全明星正赛回顾 解说
-https://tv.iill.top/Migu/JQ7y8l
+https://tv.iill.top/Migu/M8acbQ
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「KPL」13:40 杭州LGD.NBW vs 济南RW侠 杭州LGD.NBW vs 济南RW侠 官方解说
-https://tv.iill.top/Migu/bBA4uQ
+https://tv.iill.top/Migu/V0c2iM
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「斯诺克」14:00 希金斯迎战舒尔第 奥康纳PK卡特 希金斯迎战舒尔第 奥康纳PK卡特 1号桌
-https://tv.iill.top/Migu/GiRclE
+https://tv.iill.top/Migu/4jiQOk
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」14:00 2022-23赛季全明星正赛回顾 2022-23赛季全明星正赛回顾 解说
+https://tv.iill.top/Migu/OevMLS
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「KPL」17:00 武汉eStarPro vs 深圳DYG 武汉eStarPro vs 深圳DYG 官方解说
-https://tv.iill.top/Migu/RDKuJo
+https://tv.iill.top/Migu/ivP8Xj
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:00 全明星周末特辑 全明星周末特辑 蔡凯臣 霍楠 裴优
-https://tv.iill.top/Migu/RIPjEa
+https://tv.iill.top/Migu/BYYshu
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WCBA」19:20 16进8决赛 石家庄英励 VS 山东赤水河酒 解说
-https://tv.iill.top/Migu/qISc2u
+https://tv.iill.top/Migu/c4DdUa
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WCBA」19:20 16进8决赛 武汉盛帆黄鹤 VS 山西竹叶青酒 解说
-https://tv.iill.top/Migu/0NLHS1
+https://tv.iill.top/Migu/GhftBs
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WCBA」19:20 16进8决赛 福建晋江众腾 VS 上海浦发银行 解说
-https://tv.iill.top/Migu/OydMXM
+https://tv.iill.top/Migu/jyci3q
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WCBA」19:20 16进8决赛 陕西天泽 VS 内蒙古农信 解说
-https://tv.iill.top/Migu/5lc2wN
+https://tv.iill.top/Migu/UrNcCX
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WCBA」19:20 16进8决赛 黑龙江上东 VS 四川蜀道远达 解说
-https://tv.iill.top/Migu/lxMWXS
+https://tv.iill.top/Migu/xGOcfA
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WCBA」19:20 16进8决赛 河南豫光金铅 VS 东莞新彤盛 解说
-https://tv.iill.top/Migu/qE42Hd
+https://tv.iill.top/Migu/09w7AJ
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WCBA」19:20 16进8决赛 江苏南钢 VS 北京首钢园 解说
-https://tv.iill.top/Migu/6f1Ywk
+https://tv.iill.top/Migu/Olc2FC
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「KPL」20:00 成都AG超玩会 vs 深圳KLG 成都AG超玩会 vs 深圳KLG 官方解说
-https://tv.iill.top/Migu/HmTVUz
+https://tv.iill.top/Migu/vmUuit
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WCBA」19:50 16进8决赛 新疆国达氢 VS 浙江稠州银行 解说
-https://tv.iill.top/Migu/JQT3Rr
+https://tv.iill.top/Migu/DwcJa5
 
 #EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://epg.iill.top/logo/凤凰中文.png" http-user-agent="FengWatch/5.4.14" group-title="•港澳「限制」",鳳凰衛視·中文「限UA」
 http://dns.yiandrive.com:15907/phenix/fhzw
