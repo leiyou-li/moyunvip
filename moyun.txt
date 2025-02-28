@@ -1,5 +1,5 @@
 墨韵更新日期,#genre#
-2025-02-27,https://gitlab.com/lr77/IPTV/-/raw/main/%E8%B5%B7%E9%A3%8E%E4%BA%86.mp4
+2025-02-28,https://gitlab.com/lr77/IPTV/-/raw/main/%E8%B5%B7%E9%A3%8E%E4%BA%86.mp4
 
 💮💮央视频道,#genre#
 CCTV1,https://tv.iill.top/migu/cctv1
