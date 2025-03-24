@@ -124,103 +124,87 @@ https://tv.iill.top/migu/mgty
 
 #INSERT_HERE
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」02:55 常规赛 鹈鹕VS活塞 刘沛元
-https://tv.iill.top/NBA/RyYYXk
+https://tv.iill.top/NBA/6V4QiA
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」03:25 常规赛 骑士VS爵士 王琰博
-https://tv.iill.top/NBA/bntAHQ
+https://tv.iill.top/NBA/iKOATd
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」05:55 常规赛 黄蜂VS热火 张泽欣
-https://tv.iill.top/NBA/DjXh6C
+https://tv.iill.top/NBA/ia0tJR
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」05:55 常规赛 马刺VS猛龙 王晓晨
-https://tv.iill.top/NBA/uru8JG
+https://tv.iill.top/NBA/MswGPk
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」05:55 常规赛 凯尔特人VS开拓者 蔡凯臣
-https://tv.iill.top/NBA/G8ddcz
+https://tv.iill.top/NBA/7Cgvek
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」05:55 常规赛 76人VS老鹰 刘圳展
-https://tv.iill.top/NBA/SYEOVZ
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:45 常规赛 掘金vs火箭 连睿 周鹏 秋童
-https://tv.iill.top/NBA/OWNtdv
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」08:45 常规赛 雷霆vs快船 王冠证 徐咏 魏欣怡
-https://tv.iill.top/NBA/zytFOc
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」08:55 常规赛 雷霆vs快船 大史
-https://tv.iill.top/NBA/x31Y7A
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTA」00:00 斯瓦泰克打头阵 安德列娃压轴登场 斯瓦泰克打头阵 安德列娃压轴登场 清流播出
-https://tv.iill.top/Migu/gatgqd
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」10:00 徐海东/陈幸同出战 王添艺亮相单打 徐海东/陈幸同出战 王添艺亮相单打 周泽昊 小马哥
-https://tv.iill.top/Migu/8ZjfvF
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」10:00 徐海东/陈幸同出战 王添艺亮相单打 徐海东/陈幸同出战 王添艺亮相单打 1号桌
-https://tv.iill.top/Migu/X7xqOX
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」10:00 徐海东/陈幸同出战 王添艺亮相单打 徐海东/陈幸同出战 王添艺亮相单打 2号桌
-https://tv.iill.top/Migu/d1ORu9
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」10:00 徐海东/陈幸同出战 王添艺亮相单打 徐海东/陈幸同出战 王添艺亮相单打 3号桌
-https://tv.iill.top/Migu/vcn3nl
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」10:00 徐海东/陈幸同出战 王添艺亮相单打 徐海东/陈幸同出战 王添艺亮相单打 4号桌
-https://tv.iill.top/Migu/VD0PQA
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」10:00 徐海东/陈幸同出战 王添艺亮相单打 徐海东/陈幸同出战 王添艺亮相单打 5号桌
-https://tv.iill.top/Migu/TogSCA
+https://tv.iill.top/NBA/Zd29gc
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:45 常规赛 掘金VS火箭 连睿 周鹏 秋童
+https://tv.iill.top/NBA/5Ka21H
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」08:45 常规赛 雷霆VS快船 王冠证 徐咏 魏欣怡
+https://tv.iill.top/NBA/u9zBZM
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」08:55 常规赛 雷霆VS快船 大史
+https://tv.iill.top/NBA/woryMw
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTA」00:00 斯瓦泰克、佩古拉晋级 安德列娃苦战出局 斯瓦泰克、佩古拉晋级 安德列娃苦战出局 清流播出
+https://tv.iill.top/Migu/crFSzN
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」10:00 徐海东/陈幸同、陈垣宇/蒯曼晋级 徐海东/陈幸同、陈垣宇/蒯曼晋级 1号桌
+https://tv.iill.top/Migu/FkCcFA
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」10:00 徐海东/陈幸同、陈垣宇/蒯曼晋级 徐海东/陈幸同、陈垣宇/蒯曼晋级 4号桌
+https://tv.iill.top/Migu/nByJWv
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「LPL」15:40 2025LPL第二赛段小组赛Day3 2025LPL第二赛段小组赛Day3 官方解说
-https://tv.iill.top/Migu/5ebBB1
+https://tv.iill.top/Migu/Qm7HOg
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」18:00 诗和远方组合亮相混双资格赛 诗和远方组合亮相混双资格赛 周冠达 小马哥
-https://tv.iill.top/Migu/WGoPpw
+https://tv.iill.top/Migu/Ev5BPA
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」18:00 诗和远方组合亮相混双资格赛 诗和远方组合亮相混双资格赛 1号桌
-https://tv.iill.top/Migu/tVRSgp
+https://tv.iill.top/Migu/XlBmdT
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」18:00 诗和远方组合亮相混双资格赛 诗和远方组合亮相混双资格赛 2号桌
-https://tv.iill.top/Migu/aVXzQa
+https://tv.iill.top/Migu/1bqahx
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」18:00 诗和远方组合亮相混双资格赛 诗和远方组合亮相混双资格赛 3号桌
-https://tv.iill.top/Migu/MaPFj8
+https://tv.iill.top/Migu/Sh3pBM
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」18:00 诗和远方组合亮相混双资格赛 诗和远方组合亮相混双资格赛 4号桌
-https://tv.iill.top/Migu/qM36Kg
+https://tv.iill.top/Migu/TNgfRi
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」18:00 诗和远方组合亮相混双资格赛 诗和远方组合亮相混双资格赛 5号桌
-https://tv.iill.top/Migu/MlmtF6
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」18:30 广东vs广厦赛前训练 广东vs广厦赛前训练 翻译小余
-https://tv.iill.top/Migu/OLNFqt
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」18:30 广东vs广厦赛前训练 广东vs广厦赛前训练 郭知昊
-https://tv.iill.top/Migu/JJZ32C
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:10 常规赛第44轮 北京控股vs山西汾酒 孙博 李根
-https://tv.iill.top/Migu/7C9NNr
+https://tv.iill.top/Migu/pCM2a7
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」18:00 诗和远方组合亮相混双资格赛 诗和远方组合亮相混双资格赛 狂欢Yeah
+https://tv.iill.top/Migu/kojbQX
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:10 常规赛第44轮 北京控股vs山西汾酒 蔡凯臣 李根
+https://tv.iill.top/Migu/SWdxgo
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:10 常规赛第44轮 北京控股vs山西汾酒 青岛vs新疆
+https://tv.iill.top/Migu/DPD8RX
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:00 常规赛第44轮 北京控股vs山西汾酒 浙江vs江苏
+https://tv.iill.top/Migu/WmxjA3
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第44轮 北京控股vs山西汾酒 周赫
-https://tv.iill.top/Migu/UaUEQG
+https://tv.iill.top/Migu/O44QcB
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第44轮 北京控股vs山西汾酒 石楷文
-https://tv.iill.top/Migu/fFaqCr
+https://tv.iill.top/Migu/oCgcOO
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第44轮 北京控股vs山西汾酒 现场原声
-https://tv.iill.top/Migu/yZPW2r
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:00 常规赛第44轮 浙江稠州金租vs江苏肯帝亚 刘圳展
-https://tv.iill.top/Migu/zqt9no
+https://tv.iill.top/Migu/vGapUV
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第44轮 浙江稠州金租vs江苏肯帝亚 现场原声
-https://tv.iill.top/Migu/ayREEo
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:00 常规赛第44轮 四川丰谷酒业vs山东高速 蔡凯臣
-https://tv.iill.top/Migu/MFGy2C
+https://tv.iill.top/Migu/5eNCg3
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:00 常规赛第44轮 四川丰谷酒业vs山东高速 徐秦威
+https://tv.iill.top/Migu/ov5DmF
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第44轮 四川丰谷酒业vs山东高速 字诚
-https://tv.iill.top/Migu/kIki94
+https://tv.iill.top/Migu/eh5I91
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第44轮 四川丰谷酒业vs山东高速 罗森
-https://tv.iill.top/Migu/rJSokR
+https://tv.iill.top/Migu/m7wQx8
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第44轮 四川丰谷酒业vs山东高速 现场原声
-https://tv.iill.top/Migu/wwNaGc
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:10 常规赛第44轮 青岛国信制药vs新疆伊力特 连睿 周鹏 张兆旭
-https://tv.iill.top/Migu/u9cpN0
+https://tv.iill.top/Migu/n96NwZ
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第44轮 青岛国信制药vs新疆伊力特 刘沛元
-https://tv.iill.top/Migu/jERR6B
+https://tv.iill.top/Migu/32TYMa
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第44轮 青岛国信制药vs新疆伊力特 盛哲
-https://tv.iill.top/Migu/JMAXDU
+https://tv.iill.top/Migu/LTQy8v
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第44轮 青岛国信制药vs新疆伊力特 现场原声
-https://tv.iill.top/Migu/MjqjDu
+https://tv.iill.top/Migu/PnxOtm
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:00 常规赛第44轮 九台农商银行vs广州朗肽海本 吴博文
-https://tv.iill.top/Migu/qCLSQa
+https://tv.iill.top/Migu/03hNDL
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第44轮 九台农商银行vs广州朗肽海本 现场原声
-https://tv.iill.top/Migu/KRBX5f
+https://tv.iill.top/Migu/viCHJz
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:00 常规赛第44轮 广东东阳光vs浙江方兴渡 吕程 陈正昊
-https://tv.iill.top/Migu/mRxQ3g
+https://tv.iill.top/Migu/L3joAX
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第44轮 广东东阳光vs浙江方兴渡 翻译小余
-https://tv.iill.top/Migu/OPVZMn
+https://tv.iill.top/Migu/m8ONFo
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第44轮 广东东阳光vs浙江方兴渡 郭知昊
-https://tv.iill.top/Migu/PuE0Kn
+https://tv.iill.top/Migu/lWMvpx
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第44轮 广东东阳光vs浙江方兴渡 现场原声
-https://tv.iill.top/Migu/4jwslI
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第44轮 广东东阳光vs浙江方兴渡 明星机位1
-https://tv.iill.top/Migu/s90lyQ
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第44轮 广东东阳光vs浙江方兴渡 明星机位2
-https://tv.iill.top/Migu/MTR3Tb
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第44轮 广东东阳光vs浙江方兴渡 3D全真视频
-https://tv.iill.top/Migu/lVT2jO
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTA」23:00 WTA迈阿密站第六日 WTA迈阿密站第六日 清流播出
-https://tv.iill.top/Migu/g5nDcZ
+https://tv.iill.top/Migu/MG8Lz5
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTA」23:00 大坂直美PK保利尼 郑钦文冲8强 大坂直美PK保利尼 郑钦文冲8强 清流播出
+https://tv.iill.top/Migu/fLYnk3
 
 #EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://epg.iill.top/logo/凤凰中文.png" http-user-agent="FengWatch/5.4.14" group-title="•港澳「限制」",鳳凰衛視·中文「限UA」
 http://dns.yiandrive.com:15907/phenix/fhzw
