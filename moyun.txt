@@ -1,5 +1,5 @@
 墨韵更新日期,#genre#
-2025-03-23,https://gitlab.com/lr77/IPTV/-/raw/main/%E8%B5%B7%E9%A3%8E%E4%BA%86.mp4
+2025-03-24,https://gitlab.com/lr77/IPTV/-/raw/main/%E8%B5%B7%E9%A3%8E%E4%BA%86.mp4
 
 💮💮央视频道,#genre#
 CCTV1,https://tv.iill.top/migu/cctv1
@@ -15,7 +15,7 @@ CCTV5,https://piccpndali.v.myalicdn.com/audio/cctv5_2.m3u8
 CCTV5+,https://tv.iill.top/migu/cctv5p
 CCTV5+,https://piccpndali.v.myalicdn.com/audio/cctv5plus_2.m3u8
 CCTV6,https://tv.iill.top/migu/cctv6
-CCTV6,https://live.iill.top/1905/cctv6
+CCTV6,http://dns.yiandrive.com:15907/1905/cctv6
 CCTV6,https://piccpndali.v.myalicdn.com/audio/cctv6_2.m3u8
 CCTV7,https://tv.iill.top/migu/cctv7
 CCTV7,https://piccpndali.v.myalicdn.com/audio/cctv7_2.m3u8
