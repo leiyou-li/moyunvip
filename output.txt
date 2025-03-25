@@ -123,84 +123,70 @@ https://tv.iill.top/migu/dds
 https://tv.iill.top/migu/mgty
 
 #INSERT_HERE
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:55 常规赛 湖人vs魔术 王晓晨 孔德昕
-https://tv.iill.top/NBA/eXbvQG
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:55 常规赛 湖人vs魔术 郑泽鹏
-https://tv.iill.top/NBA/fyzN6q
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:55 常规赛 森林狼vs步行者 邢晨
-https://tv.iill.top/NBA/31wSn3
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:55 常规赛 猛龙vs奇才 董倡硕
-https://tv.iill.top/NBA/K5C9Vw
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:25 常规赛 独行侠vs篮网 陈鑫隆
-https://tv.iill.top/NBA/TMZh7j
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:55 常规赛 76人vs鹈鹕 姜帆 贾磊
-https://tv.iill.top/NBA/1ymp97
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」08:55 常规赛 公牛vs掘金 邵化谦 周赫
-https://tv.iill.top/NBA/9t4XX7
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」09:45 常规赛 雄鹿vs太阳 张浩岳 徐咏 王羽希
-https://tv.iill.top/NBA/dmf4oC
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」09:45 常规赛 凯尔特人vs国王 季孟年 李根 拜月宁
-https://tv.iill.top/NBA/tUF7t0
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」10:00 梁俨苧/何卓佳登场冲混双16强 梁俨苧/何卓佳登场冲混双16强 周冠达 小马哥
-https://tv.iill.top/Migu/b6gatp
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」10:00 梁俨苧/何卓佳登场冲混双16强 梁俨苧/何卓佳登场冲混双16强 1号桌
-https://tv.iill.top/Migu/1hUKo3
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」10:00 梁俨苧/何卓佳登场冲混双16强 梁俨苧/何卓佳登场冲混双16强 2号桌
-https://tv.iill.top/Migu/j2Je9Q
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」10:00 梁俨苧/何卓佳登场冲混双16强 梁俨苧/何卓佳登场冲混双16强 3号桌
-https://tv.iill.top/Migu/86EQ6c
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」10:00 梁俨苧/何卓佳登场冲混双16强 梁俨苧/何卓佳登场冲混双16强 4号桌
-https://tv.iill.top/Migu/VNfBJq
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」10:00 梁俨苧/何卓佳登场冲混双16强 梁俨苧/何卓佳登场冲混双16强 5号桌
-https://tv.iill.top/Migu/YZmK9W
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」10:00 梁俨苧/何卓佳登场冲混双16强 梁俨苧/何卓佳登场冲混双16强 狂欢Yeah
-https://tv.iill.top/Migu/lqB1Lb
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:55 常规赛 湖人VS魔术 王晓晨 孔德昕
+https://tv.iill.top/NBA/CbWNev
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:55 常规赛 湖人VS魔术 郑泽鹏
+https://tv.iill.top/NBA/RA1Z7Z
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:55 常规赛 森林狼VS步行者 邢晨
+https://tv.iill.top/NBA/HGLdH7
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:55 常规赛 猛龙VS奇才 董倡硕
+https://tv.iill.top/NBA/CpzmxH
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:25 常规赛 独行侠VS篮网 陈鑫隆
+https://tv.iill.top/NBA/dZZqHs
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:55 常规赛 76人VS鹈鹕 姜帆 贾磊
+https://tv.iill.top/NBA/itOtVZ
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」08:55 常规赛 公牛VS掘金 邵化谦 周赫
+https://tv.iill.top/NBA/7Ld8AD
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」09:45 常规赛 雄鹿VS太阳 张浩岳 徐咏 王羽希
+https://tv.iill.top/NBA/TftHAK
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」09:45 常规赛 凯尔特人VS国王 季孟年 李根 拜月宁
+https://tv.iill.top/NBA/2cslkV
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」10:00 陈垣宇/蒯曼、黄友政/孙晨晋级 陈垣宇/蒯曼、黄友政/孙晨晋级 2号桌
+https://tv.iill.top/Migu/0ugFPi
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「LPL」15:40 2025LPL第二赛段小组赛Day4 2025LPL第二赛段小组赛Day4 官方解说
-https://tv.iill.top/Migu/uep6Ll
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「咪咕体育日报」16:30 咪咕体育日报-场外直击国足世预赛 咪咕体育日报-场外直击国足世预赛 咪咕体育日报: 咪咕体育日报-在现场
-https://tv.iill.top/Migu/iGUcFO
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」17:30 姚钧涛领衔港乒众将冲正赛 姚钧涛领衔港乒众将冲正赛 1号桌
-https://tv.iill.top/Migu/1M5M8F
+https://tv.iill.top/Migu/fwUW9g
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」17:30 姚钧涛领衔港乒众将冲正赛 姚钧涛领衔港乒众将冲正赛 2号桌
-https://tv.iill.top/Migu/W9OOvw
+https://tv.iill.top/Migu/qKu0V8
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」17:30 姚钧涛领衔港乒众将冲正赛 姚钧涛领衔港乒众将冲正赛 3号桌
-https://tv.iill.top/Migu/y1cKLI
+https://tv.iill.top/Migu/75DWEd
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」17:30 姚钧涛领衔港乒众将冲正赛 姚钧涛领衔港乒众将冲正赛 4号桌
-https://tv.iill.top/Migu/cGxlRp
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」18:00 男、女单1/32决赛及1/16决赛 混双1/16决赛 男、女单1/32决赛及1/16决赛 混双1/16决赛 周泽昊 小马哥
-https://tv.iill.top/Migu/p4aRNm
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」18:00 男、女单1/32决赛及1/16决赛 混双1/16决赛 男、女单1/32决赛及1/16决赛 混双1/16决赛 1号桌
-https://tv.iill.top/Migu/d1hlbX
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」18:00 男、女单1/32决赛及1/16决赛 混双1/16决赛 男、女单1/32决赛及1/16决赛 混双1/16决赛 2号桌
-https://tv.iill.top/Migu/ezXQUf
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」18:00 男、女单1/32决赛及1/16决赛 混双1/16决赛 男、女单1/32决赛及1/16决赛 混双1/16决赛 3号桌
-https://tv.iill.top/Migu/spuzNW
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」18:00 男、女单1/32决赛及1/16决赛 混双1/16决赛 男、女单1/32决赛及1/16决赛 混双1/16决赛 4号桌
-https://tv.iill.top/Migu/mgq11Y
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」18:00 男、女单1/32决赛及1/16决赛 混双1/16决赛 男、女单1/32决赛及1/16决赛 混双1/16决赛 5号桌
-https://tv.iill.top/Migu/2iDA5l
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」18:00 男、女单1/32决赛及1/16决赛 混双1/16决赛 男、女单1/32决赛及1/16决赛 混双1/16决赛 狂欢Yeah
-https://tv.iill.top/Migu/4Ume3o
+https://tv.iill.top/Migu/GLPXBV
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」18:00 徐海东/陈幸同、诗和远方出战 徐海东/陈幸同、诗和远方出战 周泽昊
+https://tv.iill.top/Migu/fVFZNp
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」18:00 徐海东/陈幸同、诗和远方出战 徐海东/陈幸同、诗和远方出战 1号桌
+https://tv.iill.top/Migu/cIr2o9
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」18:00 徐海东/陈幸同、诗和远方出战 徐海东/陈幸同、诗和远方出战 2号桌
+https://tv.iill.top/Migu/5jwsFC
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」18:00 徐海东/陈幸同、诗和远方出战 徐海东/陈幸同、诗和远方出战 3号桌
+https://tv.iill.top/Migu/2GhqAu
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」18:00 徐海东/陈幸同、诗和远方出战 徐海东/陈幸同、诗和远方出战 4号桌
+https://tv.iill.top/Migu/SR7bfi
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」18:00 徐海东/陈幸同、诗和远方出战 徐海东/陈幸同、诗和远方出战 5号桌
+https://tv.iill.top/Migu/QVDq1y
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「十五运乒乓球项目资格赛」18:00 徐海东/陈幸同、诗和远方出战 徐海东/陈幸同、诗和远方出战 狂欢Yeah
+https://tv.iill.top/Migu/eGKpAT
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「咪咕体育日报」18:00 咪咕体育日报-场外直击国足世预赛 咪咕体育日报-场外直击国足世预赛 咪咕体育日报: 咪咕体育日报-在现场
+https://tv.iill.top/Migu/7MoZnp
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WCBA」19:20 半决赛 内蒙古农信 VS 东莞新彤盛 吕程
-https://tv.iill.top/Migu/jsNgCx
+https://tv.iill.top/Migu/jQ3fhV
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WCBA」19:20 半决赛 内蒙古农信 VS 东莞新彤盛 解说
-https://tv.iill.top/Migu/tN7W2C
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WCBA」19:20 半决赛 四川蜀道远达 VS 山西竹叶青酒 解说
-https://tv.iill.top/Migu/qvVjEn
+https://tv.iill.top/Migu/ojKo7S
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WCBA」19:15 半决赛 四川蜀道远达 VS 山西竹叶青酒 解说
+https://tv.iill.top/Migu/MrvBY3
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:00 常规赛第44轮 南京头排苏酒vs北京北汽 杨健 李根 秋童
-https://tv.iill.top/Migu/lcN25b
+https://tv.iill.top/Migu/W5GNzf
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第44轮 南京头排苏酒vs北京北汽 王港
-https://tv.iill.top/Migu/LN2gId
+https://tv.iill.top/Migu/bmqbV2
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第44轮 南京头排苏酒vs北京北汽 刘芳宇
-https://tv.iill.top/Migu/zcaVy7
+https://tv.iill.top/Migu/uX4pNw
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第44轮 南京头排苏酒vs北京北汽 现场原声
-https://tv.iill.top/Migu/x3JsMM
+https://tv.iill.top/Migu/0erVhX
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:00 常规赛第44轮 宁波町渥vs天津先行者 寇逸豪
-https://tv.iill.top/Migu/UI30ib
+https://tv.iill.top/Migu/xTva5t
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」19:25 常规赛第44轮 宁波町渥vs天津先行者 现场原声
-https://tv.iill.top/Migu/Ky2P6B
+https://tv.iill.top/Migu/uf8faZ
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「盐城国际足球邀请赛」19:35 盐城国际足球邀请赛 中国U22 vs 越南U22 2025中国之队国际足球邀请赛-中国U22-越南U22
-https://tv.iill.top/Migu/SnmA5S
+https://tv.iill.top/Migu/gOWq8w
 
 #EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://epg.iill.top/logo/凤凰中文.png" http-user-agent="FengWatch/5.4.14" group-title="•港澳「限制」",鳳凰衛視·中文「限UA」
 http://dns.yiandrive.com:15907/phenix/fhzw
