@@ -124,59 +124,47 @@ https://tv.iill.top/migu/mgty
 
 #INSERT_HERE
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「西甲」03:45 联赛 巴塞罗那 vs 奥萨苏纳 张昊泽 李欣
-https://tv.iill.top/FB/8OBlhC
+https://tv.iill.top/FB/3BC2gS
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「中超」18:30 联赛 青岛西海岸 vs 上海海港 娄一晨 刘越 孙蕊
-https://tv.iill.top/FB/sIDz3x
+https://tv.iill.top/FB/Lzb11e
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「中超」18:30 联赛 青岛西海岸 vs 上海海港 赛场原声
-https://tv.iill.top/FB/vnnjvV
+https://tv.iill.top/FB/vKAVSX
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「中超」19:20 联赛 武汉三镇 vs 浙江 张昊泽 于海
-https://tv.iill.top/FB/QAlV0r
+https://tv.iill.top/FB/Zh8Vek
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「中超」19:20 联赛 武汉三镇 vs 浙江 赛场原声
-https://tv.iill.top/FB/JPxpDx
+https://tv.iill.top/FB/9xxmv5
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「中超」19:45 联赛 深圳新鹏城 vs 云南玉昆 鹿中原 雷腾龙
-https://tv.iill.top/FB/v4dERV
+https://tv.iill.top/FB/J3FDAI
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「中超」19:45 联赛 深圳新鹏城 vs 云南玉昆 赛场原声
-https://tv.iill.top/FB/J8qc1w
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:55 常规赛 步行者vs奇才 罗森
-https://tv.iill.top/NBA/EFOFJL
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:55 常规赛 马刺vs骑士 王晓晨
-https://tv.iill.top/NBA/IilbsJ
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:55 常规赛 独行侠vs魔术 邵化谦
-https://tv.iill.top/NBA/ZUUn1J
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:25 常规赛 老鹰vs热火 王琰博
-https://tv.iill.top/NBA/SuNLSM
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:55 常规赛 灰熊vs雷霆 邢晨
-https://tv.iill.top/NBA/lg2kDK
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:45 常规赛 湖人vs公牛 姜帆 马健 秋童
-https://tv.iill.top/NBA/IK7MLn
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:55 常规赛 湖人vs公牛 郑泽鹏
-https://tv.iill.top/NBA/dcMHAP
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」08:55 常规赛 火箭vs爵士 周鹏
-https://tv.iill.top/NBA/R6bYml
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」09:55 常规赛 开拓者vs国王 殷文玉
-https://tv.iill.top/NBA/0j1fPm
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTA」08:30 萨巴伦卡2-0保利尼 佩古拉迎战伊埃拉 萨巴伦卡2-0保利尼 佩古拉迎战伊埃拉 佩古拉 vs 伊埃拉（单文强）
-https://tv.iill.top/Migu/1JUF42
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTA」08:30 萨巴伦卡2-0保利尼 佩古拉迎战伊埃拉 萨巴伦卡2-0保利尼 佩古拉迎战伊埃拉 清流播出
-https://tv.iill.top/Migu/SIpYgx
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」13:30 黄镇廷/杜凯琹冲四强 早田希娜出战 黄镇廷/杜凯琹冲四强 早田希娜出战 周冠达 周泽昊
-https://tv.iill.top/Migu/wZEtXg
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」13:30 黄镇廷/杜凯琹冲四强 早田希娜出战 黄镇廷/杜凯琹冲四强 早田希娜出战 1号桌
-https://tv.iill.top/Migu/DxBILI
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」13:30 黄镇廷/杜凯琹冲四强 早田希娜出战 黄镇廷/杜凯琹冲四强 早田希娜出战 2号桌
-https://tv.iill.top/Migu/QGPD2y
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」13:30 黄镇廷/杜凯琹冲四强 早田希娜出战 黄镇廷/杜凯琹冲四强 早田希娜出战 3号桌
-https://tv.iill.top/Migu/6WYVw2
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」13:30 黄镇廷/杜凯琹冲四强 早田希娜出战 黄镇廷/杜凯琹冲四强 早田希娜出战 4号桌
-https://tv.iill.top/Migu/doJMs9
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」19:30 黄镇廷/杜凯琹冲四强 早田希娜出战 黄镇廷/杜凯琹冲四强 早田希娜出战 周泽昊 肖扬
-https://tv.iill.top/Migu/NCcouZ
+https://tv.iill.top/FB/Jm9VTY
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:55 常规赛 步行者VS奇才 罗森
+https://tv.iill.top/NBA/BxSu0I
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:55 常规赛 马刺VS骑士 王晓晨
+https://tv.iill.top/NBA/w1goHi
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:55 常规赛 独行侠VS魔术 邵化谦
+https://tv.iill.top/NBA/nGVWYN
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:25 常规赛 老鹰VS热火 王琰博
+https://tv.iill.top/NBA/fbfxD8
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:55 常规赛 灰熊VS雷霆 邢晨
+https://tv.iill.top/NBA/b2WSAC
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:45 常规赛 湖人VS公牛 姜帆 马健 秋童
+https://tv.iill.top/NBA/0q8vmX
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:55 常规赛 湖人VS公牛 郑泽鹏
+https://tv.iill.top/NBA/JsFZXm
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」08:55 常规赛 火箭VS爵士 周鹏
+https://tv.iill.top/NBA/ETbRg7
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」09:55 常规赛 开拓者VS国王 殷文玉
+https://tv.iill.top/NBA/CJaxYo
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTA」08:30 萨巴伦卡2-0保利尼 佩古拉苦战进决赛 萨巴伦卡2-0保利尼 佩古拉苦战进决赛 清流播出
+https://tv.iill.top/Migu/IlDNUf
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「LPL」15:40 2025LPL第二赛段小组赛Day7 2025LPL第二赛段小组赛Day7 官方解说
-https://tv.iill.top/Migu/CIbHFx
+https://tv.iill.top/Migu/slWvku
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「KPL」16:40 深圳KLG vs 上海RNG.M 深圳KLG vs 上海RNG.M 官方解说
-https://tv.iill.top/Migu/wadjxm
+https://tv.iill.top/Migu/CxMrhd
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」13:30 早田希娜、张本兄妹冲单打16强 早田希娜、张本兄妹冲单打16强 4号桌
+https://tv.iill.top/Migu/0YT3xJ
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「KPL」20:00 成都AG超玩会 vs Hero久竞 成都AG超玩会 vs Hero久竞 官方解说
-https://tv.iill.top/Migu/noHNPK
+https://tv.iill.top/Migu/R51vXm
 
 #EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://epg.iill.top/logo/凤凰中文.png" http-user-agent="FengWatch/5.4.14" group-title="•港澳「限制」",鳳凰衛視·中文「限UA」
 http://dns.yiandrive.com:15907/phenix/fhzw
