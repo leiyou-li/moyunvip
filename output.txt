@@ -88,79 +88,73 @@ https://tv.iill.top/migu/mgty
 
 #INSERT_HERE
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「亚冠二级」01:50 半决赛 布赖代合作 vs 沙亚赫 鹿中原
-https://tv.iill.top/FB/T6KZ3U
+https://tv.iill.top/FB/EUaqpZ
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/足球.png" group-title="•咪咕「足球」", 「亚冠二级」19:50 半决赛 本国联队 vs 悉尼FC 谭逸雄
-https://tv.iill.top/FB/XLiil8
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:55 常规赛 奇才vs步行者 王凯
-https://tv.iill.top/NBA/UmoLvR
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:55 常规赛 公牛vs骑士 王冠证
-https://tv.iill.top/NBA/jjWuLV
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:55 常规赛 灰熊vs黄蜂 刘芳宇
-https://tv.iill.top/NBA/kl0rv4
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:55 常规赛 老鹰vs魔术 张泽欣
-https://tv.iill.top/NBA/vuM6uI
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:25 常规赛 鹈鹕vs篮网 邵化谦
-https://tv.iill.top/NBA/GXnPmT
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:25 常规赛 凯尔特人vs尼克斯 姜帆 季孟年
-https://tv.iill.top/NBA/5WCjBE
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:55 常规赛 森林狼vs雄鹿 张浩岳
-https://tv.iill.top/NBA/sCffRN
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:45 常规赛 湖人vs雷霆 杨健 苏群 秋童
-https://tv.iill.top/NBA/S1ydXL
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:55 常规赛 湖人vs雷霆 郑泽鹏
-https://tv.iill.top/NBA/O52ytT
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」09:45 常规赛 勇士vs太阳 李天宇 陈正昊 魏欣怡
-https://tv.iill.top/NBA/I4eu6O
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」09:55 常规赛 勇士vs太阳 拜月宁
-https://tv.iill.top/NBA/pA3n63
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」09:55 常规赛 勇士vs太阳 莫俊祺
-https://tv.iill.top/NBA/JzxwNq
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」09:55 常规赛 勇士vs太阳 洪荒
-https://tv.iill.top/NBA/5040CM
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」10:25 常规赛 马刺vs快船 连睿 闫宇峰
-https://tv.iill.top/NBA/DxMiaU
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」10:00 徐奕迎战黄凯彤 徐海东PK周哲宇 徐奕迎战黄凯彤 徐海东PK周哲宇 1号桌
-https://tv.iill.top/Migu/HZfmgL
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」10:00 徐奕迎战黄凯彤 徐海东PK周哲宇 徐奕迎战黄凯彤 徐海东PK周哲宇 2号桌
-https://tv.iill.top/Migu/Qmt7Eb
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「WTT」10:00 徐奕迎战黄凯彤 徐海东PK周哲宇 徐奕迎战黄凯彤 徐海东PK周哲宇 3号桌
-https://tv.iill.top/Migu/0gxtOd
+https://tv.iill.top/FB/UOWYR9
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:55 常规赛 奇才VS步行者 王凯
+https://tv.iill.top/NBA/mv0rjV
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:55 常规赛 公牛VS骑士 王冠证
+https://tv.iill.top/NBA/sevmeP
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:55 常规赛 灰熊VS黄蜂 刘芳宇
+https://tv.iill.top/NBA/zTxPOH
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」06:55 常规赛 老鹰VS魔术 张泽欣
+https://tv.iill.top/NBA/ZnlOHn
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:25 常规赛 鹈鹕VS篮网 邵化谦
+https://tv.iill.top/NBA/boPgb6
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:25 常规赛 凯尔特人VS尼克斯 姜帆 季孟年
+https://tv.iill.top/NBA/GE9lTl
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:55 常规赛 森林狼VS雄鹿 张浩岳
+https://tv.iill.top/NBA/Dlpd7T
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:45 常规赛 湖人VS雷霆 杨健 苏群 秋童
+https://tv.iill.top/NBA/EDt3CH
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」07:55 常规赛 湖人VS雷霆 郑泽鹏
+https://tv.iill.top/NBA/ZCPToz
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」09:45 常规赛 勇士VS太阳 李天宇 陈正昊 魏欣怡
+https://tv.iill.top/NBA/MOSOMs
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」09:55 常规赛 勇士VS太阳 拜月宁
+https://tv.iill.top/NBA/F10tIL
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」09:55 常规赛 勇士VS太阳 莫俊祺
+https://tv.iill.top/NBA/jwf9Fr
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」09:55 常规赛 勇士VS太阳 洪荒
+https://tv.iill.top/NBA/voNL8R
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NBA.png" group-title="•咪咕「NBA」", 「NBA」10:25 常规赛 马刺VS快船 连睿 闫宇峰
+https://tv.iill.top/NBA/yBJyk6
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「中乙」14:50 中乙联赛 长春喜都vs江西庐山 解说
-https://tv.iill.top/Migu/VPKBY8
+https://tv.iill.top/Migu/4PSQWK
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「中乙」14:50 中乙联赛 山西崇德荣海vs杭州临平吴越 解说
-https://tv.iill.top/Migu/lsokec
+https://tv.iill.top/Migu/ljVl1z
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「中乙」14:50 中乙联赛 北京理工vs上海海港富盛经开 解说
-https://tv.iill.top/Migu/TSk5yg
+https://tv.iill.top/Migu/oejoac
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「中乙」15:20 中乙联赛 海门珂缔缘vs泰安天贶 解说
-https://tv.iill.top/Migu/m8zxbu
+https://tv.iill.top/Migu/kBAebP
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「LPL」16:30 LGD vs OMG LGD vs OMG 官方解说
-https://tv.iill.top/Migu/ATDa38
+https://tv.iill.top/Migu/7QtGtK
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「KPL」16:40 苏州KSG vs 济南RW侠 苏州KSG vs 济南RW侠 官方解说
-https://tv.iill.top/Migu/78VuVL
+https://tv.iill.top/Migu/JGgmDL
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「斯诺克」17:00 白雨露、老将达赫迪出战 白雨露、老将达赫迪出战 1号桌
-https://tv.iill.top/Migu/kA1Q2u
+https://tv.iill.top/Migu/KCjTHJ
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「斯诺克」17:00 白雨露、老将达赫迪出战 白雨露、老将达赫迪出战 2号桌
-https://tv.iill.top/Migu/RbKmz2
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「斯诺克」17:00 白雨露、老将达赫迪出战 白雨露、老将达赫迪出战 3号桌
-https://tv.iill.top/Migu/lXfTOA
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「斯诺克」17:00 白雨露、老将达赫迪出战 白雨露、老将达赫迪出战 4号桌
-https://tv.iill.top/Migu/aeVFFu
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「斯诺克」17:00 白雨露、老将达赫迪出战 白雨露、老将达赫迪出战 5号桌
-https://tv.iill.top/Migu/M2kINB
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「斯诺克」17:00 白雨露、老将达赫迪出战 白雨露、老将达赫迪出战 7号桌
-https://tv.iill.top/Migu/vZa9az
+https://tv.iill.top/Migu/Ek1CTK
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「斯诺克」17:00 白雨露、老将达赫迪出战 白雨露、老将达赫迪出战 6号桌
-https://tv.iill.top/Migu/DhHTPg
+https://tv.iill.top/Migu/6fsLF5
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「斯诺克」17:00 白雨露、老将达赫迪出战 白雨露、老将达赫迪出战 7号桌
+https://tv.iill.top/Migu/AlQxL0
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「斯诺克」17:00 白雨露、老将达赫迪出战 白雨露、老将达赫迪出战 3号桌
+https://tv.iill.top/Migu/xZz4XF
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「斯诺克」17:00 白雨露、老将达赫迪出战 白雨露、老将达赫迪出战 4号桌
+https://tv.iill.top/Migu/vZFaIn
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「斯诺克」17:00 白雨露、老将达赫迪出战 白雨露、老将达赫迪出战 5号桌
+https://tv.iill.top/Migu/C7cwMI
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「斯诺克」17:00 白雨露、老将达赫迪出战 白雨露、老将达赫迪出战 8号桌
-https://tv.iill.top/Migu/RlnO7F
+https://tv.iill.top/Migu/MsMJZb
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「中乙」18:50 中乙联赛 兰州陇原竞技vs湖北青年星 解说
-https://tv.iill.top/Migu/FoGXuE
+https://tv.iill.top/Migu/3ZisNp
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「中乙」18:50 中乙联赛 山东泰山B队vs无锡吴钩 解说
-https://tv.iill.top/Migu/Ktf9sX
+https://tv.iill.top/Migu/PfycAM
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「LPL」19:00 WE vs JDG WE vs JDG 官方解说
-https://tv.iill.top/Migu/h35leg
+https://tv.iill.top/Migu/kKgMR4
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「KPL」20:00 杭州LGD.NBW vs 佛山DRG 杭州LGD.NBW vs 佛山DRG 官方解说
-https://tv.iill.top/Migu/tA0jaz
+https://tv.iill.top/Migu/iGj93t
 
 #EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://epg.iill.top/logo/凤凰中文.png" http-user-agent="FengWatch/5.4.14" group-title="•港澳「限制」",鳳凰衛視·中文「限UA」
 http://dns.yiandrive.com:15907/phenix/fhzw
