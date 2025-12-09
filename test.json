@@ -1,4 +1,7 @@
  {
+	"spider":"http://cdn.qiaoji8.com/fix250711.jar;md5;54418536dc2a40da4e94437397895d01",
+    "wallpaper": "https://深色壁纸.xxooo.cf/",
+    "warningText": "提示：请勿轻信视频内广告",
 "lives":[
         {
       "name": "冰茶测试",
@@ -99,7 +102,7 @@
             "timeout": 10
         }
 ],
-    "sites": [
+"sites": [
     {
 	  "jar": "http://cdn.qiaoji8.com/fix250711.jar;md5;54418536dc2a40da4e94437397895d01",
       "key": "综合",
@@ -286,6 +289,7 @@
       "playerType": 2,
       "ext": "https://shdy5.us"
     }
+	    ],
   "doh": [
     {
       "name": "Google",
