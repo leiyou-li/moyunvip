@@ -1,6 +1,6 @@
  {
-	"spider":"http://cdn.qiaoji8.com/fix250711.jar;md5;54418536dc2a40da4e94437397895d01",
-    "wallpaper": "https://深色壁纸.xxooo.cf/",
+	"spider":"https://gitee.com/zxmoyun/shared-warehouse/raw/master/jar/1209.jar;md5;54418536dc2a40da4e94437397895d01",
+    "wallpaper": "https://ghfast.top/https://github.com/leiyou-li/photo/raw/main/img.jpg?raw=true",
     "warningText": "提示：请勿轻信视频内广告",
 "lives":[
         {
@@ -104,7 +104,7 @@
 ],
 "sites": [
     {
-	  "jar": "http://cdn.qiaoji8.com/fix250711.jar;md5;54418536dc2a40da4e94437397895d01",
+	  
       "key": "综合",
       "name": "综合线路",
       "type": 3,
@@ -113,7 +113,7 @@
       "ext": "7lj763gg402i7942412h849jg1558j9jl8g19213il86316k465719lik158491h179312hk935886ig2l05g9"
     },
 	{
-	  "jar": "http://cdn.qiaoji8.com/fix250711.jar;md5;54418536dc2a40da4e94437397895d01",
+	  
       "key": "qiji",
       "name": "qiji线路",
       "type": 3,
@@ -122,7 +122,7 @@
       "ext": "7lj763gg402i79425h2384j4g949j899hll9990i9kjl6l740h1342hjlg1848401g8610h9995i998j351gl38kklkj1hkhll757010k7hji6h377ih37k060g35161jhl3i5h0l2702g7299452l4297k5697g5390lk6935k2i9g48l8j2kh27l1g014k7j9475g8"
     },
 	{
-	  "jar": "http://cdn.qiaoji8.com/fix250711.jar;md5;54418536dc2a40da4e94437397895d01",
+	  
       "key": "天天",
       "name": "天天线路",
       "type": 3,
@@ -131,7 +131,7 @@
       "ext": "7lj763gg0939791h1l3888jig44gi291li"
     },
     {
-	  "jar": "http://cdn.qiaoji8.com/fix250711.jar;md5;54418536dc2a40da4e94437397895d01",
+	  
       "key": "lanyingys",
       "name": "橘子4K┃APP",
       "type": 3,
@@ -140,7 +140,7 @@
       "ext": "7lj763gg0939795i0179i481k312jji6ggk69j0j96j86874021107j9gl36722129hj77k4g863higk1030k59ljigg39ikjl525l74h782lgj30igk10gh73lk1j12"
     },
     {
-	  "jar": "http://cdn.qiaoji8.com/fix250711.jar;md5;54418536dc2a40da4e94437397895d01",
+	  
       "key": "剧评",
       "name": "剧评┃App",
       "type": 3,
@@ -149,7 +149,7 @@
       "ext": "7lj763gg402i7942463j9j9jh8579590k3hjii5gi4i73l2k5l"
     },
 	{
-      "jar": "http://cdn.qiaoji8.com/fix250711.jar;md5;54418536dc2a40da4e94437397895d01",
+      
       "key": "huomaoys",
       "name": "火猫┃App",
       "type": 3,
@@ -158,7 +158,7 @@
       "ext": "7lj763gg402i7942553k9hj9k1128h95g3l8920j828g332i08154lg0h6134l040hj849gl8i4k9881381lh48ig2g41il4k131270lk1h6j7l723863llg60l91544k9k693l1g7722664ii126k"
     },
 	{
-	  "jar": "http://cdn.qiaoji8.com/fix250711.jar;md5;54418536dc2a40da4e94437397895d01",
+	  
       "key": "客星",
       "name": "客星┃App",
       "type": 3,
@@ -167,7 +167,7 @@
       "ext": "7lj763gg0939790i413gi486k509jgi3ggk6j244j6j36j76041707h0lk124l0l0h867j83h576h3j66h4lk89lh5lh1jl3l170647kj09lklji74j56lg673li1h16"
     },
 	{
-	  "jar": "http://cdn.qiaoji8.com/fix250711.jar;md5;54418536dc2a40da4e94437397895d01",
+	  
       "key": "柠檬",
       "name": "柠檬┃App",
       "type": 3,
@@ -176,7 +176,7 @@
       "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
     },
 	{
-	  "jar": "http://cdn.qiaoji8.com/fix250711.jar;md5;54418536dc2a40da4e94437397895d01",
+	  
       "key": "ZXZJ",
       "name": "在线┃直连",
       "api": "csp_Zxzj",
@@ -288,7 +288,40 @@
       "api": "csp_SaoHuo",
       "playerType": 2,
       "ext": "https://shdy5.us"
-    }
+    },
+	    {
+			"jar": "https://gitee.com/zxmoyun/shared-warehouse/raw/master/jar/spider.jar",
+            "key": "1905",
+            "name": "1905｜影视",
+            "type": 3,
+            "api": "csp_Web1905",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0
+        },
+		{
+            "key": "58影视",
+            "name": "五八｜APP",
+            "type": 3,
+            "api": "https://gitee.com/zxmoyun/shared-warehouse/raw/master/libs/58视频.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+	    {
+            "key": "土豆浏览器",
+            "name": "土豆｜APP",
+            "type": 3,
+            "api": "https://gitee.com/zxmoyun/shared-warehouse/raw/master/libs/土豆浏览器.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        }
+
 	    ],
   "doh": [
     {
