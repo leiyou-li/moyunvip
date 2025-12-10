@@ -112,6 +112,15 @@
       "playerType": 2,
       "ext": "7lj763gg402i7942412h849jg1558j9jl8g19213il86316k465719lik158491h179312hk935886ig2l05g9"
     },
+	{"key": "云朵咖",
+    "name": "☀咖啡",
+	"type":3,
+	"api":"https://gitee.com/zxmoyun/shared-warehouse/raw/master/python/getapp3.4.4.py",
+	"ext":{"host":"http://160.202.247.214:2388",
+    "api":2,
+    "ua": "okhttp/3.10.0",
+    "datakey":"qwertyuiopqwertt"}},         
+  
 	{
 	  
       "key": "qiji",
