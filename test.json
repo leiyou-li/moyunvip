@@ -119,8 +119,43 @@
 	"ext":{"host":"http://160.202.247.214:2388",
     "api":2,
     "ua": "okhttp/3.10.0",
-    "datakey":"qwertyuiopqwertt"}},         
-  
+    "datakey":"qwertyuiopqwertt"}
+	},         
+  {
+            "key": "自营影视",
+            "name": "🌹自营影视",
+            "type": 3,
+            "api": "https://gitee.com/zxmoyun/shared-warehouse/raw/master/python/getapp3.4.5.py",
+            "ext": {
+                "host": "https://qj.ggtvb.cc",
+                "api": 2,
+                "datakey": "kecbio48dsq131ed"
+            }
+        },
+	{
+      "key": "悟界影视",
+      "name":"悟界影视",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "api": "https://gitee.com/zxmoyun/shared-warehouse/raw/master/python/getapp3.4.5.py",
+      "ext": {
+        "host": "https://tv.wjshub.cn",
+        "datakey": "qazwsxedc1234567",
+        "数据向量": "qazwsxedc1234567",          
+            "ua": "okhttp/3.14.9"               
+      }
+    },
+	{
+            "key": "火花",
+            "name": "火花剧场｜APP",
+            "type": 3,
+            "api": "https://gitee.com/zxmoyun/shared-warehouse/raw/master/python/getapp3.4.5.py",
+            "ext": {
+                "host": "http://v.itcxo.cn/txt/1.txt",
+                "datakey": "PoiUytRedFghjklm"           
+            }
+        },
 	{
 	  
       "key": "qiji",
