@@ -115,7 +115,7 @@
 	{"key": "云朵咖",
     "name": "☀咖啡",
 	"type":3,
-	"api":"https://gitee.com/zxmoyun/shared-warehouse/raw/master/python/getapp3.4.4.py",
+	"api":"https://gitee.com/zxmoyun/shared-warehouse/raw/master/python/getapp%E6%BD%87%E6%B4%92%E7%89%88.py",
 	"ext":{"host":"http://160.202.247.214:2388",
     "api":2,
     "ua": "okhttp/3.10.0",
