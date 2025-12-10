@@ -113,7 +113,7 @@
       "ext": "7lj763gg402i7942412h849jg1558j9jl8g19213il86316k465719lik158491h179312hk935886ig2l05g9"
     },
 	{"key": "云朵咖",
-    "name": "☀咖啡",
+    "name": "咖啡💖py",
 	"type":3,
 	"api":"https://gitee.com/zxmoyun/shared-warehouse/raw/master/python/getapp3.4.5.py",
 	"ext":{"host":"http://160.202.247.214:2388",
@@ -123,7 +123,7 @@
 	},         
   {
             "key": "自营影视",
-            "name": "🌹自营影视",
+            "name": "自营影视💖py",
             "type": 3,
             "api": "https://gitee.com/zxmoyun/shared-warehouse/raw/master/python/getapp3.4.5.py",
             "ext": {
@@ -134,7 +134,7 @@
         },
 	{
       "key": "悟界影视",
-      "name":"悟界影视",
+      "name":"悟界💖py",
       "type": 3,
       "searchable": 1,
       "changeable": 1,
@@ -148,7 +148,7 @@
     },
 	{
             "key": "火花",
-            "name": "火花剧场｜APP",
+            "name": "火花剧场💖py",
             "type": 3,
             "api": "https://gitee.com/zxmoyun/shared-warehouse/raw/master/python/getapp3.4.5.py",
             "ext": {
@@ -335,7 +335,7 @@
     },
 		{
             "key": "58影视",
-            "name": "五八｜APP",
+            "name": "五八💖py",
             "type": 3,
             "api": "https://gitee.com/zxmoyun/shared-warehouse/raw/master/libs/58视频.py",
             "searchable": 1,
@@ -346,7 +346,7 @@
         },
 	    {
             "key": "土豆浏览器",
-            "name": "土豆｜APP",
+            "name": "土豆💖py",
             "type": 3,
             "api": "https://gitee.com/zxmoyun/shared-warehouse/raw/master/libs/土豆浏览器.py",
             "searchable": 1,
