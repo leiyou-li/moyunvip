@@ -1,5 +1,5 @@
  {
-	"spider":"https://gitee.com/zxmoyun/shared-warehouse/raw/master/jar/1209.jar;md5;54418536dc2a40da4e94437397895d01",
+	"spider":"https://raw.githubusercontent.com/leiyou-li/moyunvip/refs/heads/main/Warehouse/jar/1209.jar;md5;54418536dc2a40da4e94437397895d01",
     "wallpaper": "https://ghfast.top/https://github.com/leiyou-li/photo/raw/main/img.jpg?raw=true",
     "warningText": "提示：请勿轻信视频内广告",
 "lives":[
@@ -115,7 +115,7 @@
 	{"key": "云朵咖",
     "name": "咖啡💖py",
 	"type":3,
-	"api":"https://gitee.com/zxmoyun/shared-warehouse/raw/master/python/getapp3.4.5.py",
+	"api":"https://raw.githubusercontent.com/leiyou-li/moyunvip/refs/heads/main/Warehouse/python/getapp3.4.5.py",
 	"ext":{"host":"http://160.202.247.214:2388",
     "api":2,
     "ua": "okhttp/3.10.0",
@@ -125,7 +125,7 @@
             "key": "自营影视",
             "name": "自营影视💖py",
             "type": 3,
-            "api": "https://gitee.com/zxmoyun/shared-warehouse/raw/master/python/getapp3.4.5.py",
+            "api": "https://raw.githubusercontent.com/leiyou-li/moyunvip/refs/heads/main/Warehouse/python/getapp3.4.5.py",
             "ext": {
                 "host": "https://qj.ggtvb.cc",
                 "api": 2,
@@ -138,7 +138,7 @@
       "type": 3,
       "searchable": 1,
       "changeable": 1,
-      "api": "https://gitee.com/zxmoyun/shared-warehouse/raw/master/python/getapp3.4.5.py",
+      "api": "https://raw.githubusercontent.com/leiyou-li/moyunvip/refs/heads/main/Warehouse/python/getapp3.4.5.py",
       "ext": {
         "host": "https://tv.wjshub.cn",
         "datakey": "qazwsxedc1234567",
@@ -150,7 +150,7 @@
             "key": "火花",
             "name": "火花剧场💖py",
             "type": 3,
-            "api": "https://gitee.com/zxmoyun/shared-warehouse/raw/master/python/getapp3.4.5.py",
+            "api": "https://raw.githubusercontent.com/leiyou-li/moyunvip/refs/heads/main/Warehouse/python/getapp3.4.5.py",
             "ext": {
                 "host": "http://v.itcxo.cn/txt/1.txt",
                 "datakey": "PoiUytRedFghjklm"           
@@ -232,7 +232,7 @@
       "ext": "7lj763gg402i7942463j9j9jgg449698khhh845ki38473"
     },
 	{
-	  "jar": "https://gitee.com/zxmoyun/shared-warehouse/raw/master/test/test.jar",
+	  "jar": "https://raw.githubusercontent.com/leiyou-li/moyunvip/refs/heads/main/Warehouse/jar/test.jar",
       "key": "金牌",
       "name": "金牌┃APP",
       "type": 3,
@@ -240,13 +240,13 @@
       "changeable": 1,
       "api": "csp_AppQi",
       "ext": {
-        "site": "https://gitee.com/zxmoyun/shared-warehouse/raw/master/test/lib/dtjp.txt",
+        "site": "https://raw.githubusercontent.com/leiyou-li/moyunvip/refs/heads/main/Warehouse/lib/dtjp.txt",
         "dataKey": "kecbio48dsq131ed",
         "dataIv": "kecbio48dsq131ed"
       }
     },
 	{
-	  "jar": "https://gitee.com/zxmoyun/shared-warehouse/raw/master/test/test.jar",
+	  "jar": "https://raw.githubusercontent.com/leiyou-li/moyunvip/refs/heads/main/Warehouse/jar/test.jar",
       "key": "热播影视",
       "name": "热播｜APP",
       "type": 3,
@@ -259,48 +259,48 @@
       }
     },
     {
-	  "jar": "https://gitee.com/zxmoyun/shared-warehouse/raw/master/test/test.jar",
+	  "jar": "https://raw.githubusercontent.com/leiyou-li/moyunvip/refs/heads/main/Warehouse/jar/test.jar",
       "key": "仓鼠",
       "name": "仓鼠｜APP",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppQi",
       "ext": {
-        "site": "https://gitee.com/zxmoyun/shared-warehouse/raw/master/test/lib/ceshi421.txt",
+        "site": "https://raw.githubusercontent.com/leiyou-li/moyunvip/refs/heads/main/Warehouse/lib/ceshi421.txt",
         "dataKey": "da61247f5b662597",
         "dataIv": "da61247f5b662597",
         "version": "120"
       }
     },
 	{
-	  "jar": "https://gitee.com/zxmoyun/shared-warehouse/raw/master/test/test.jar",
+	  "jar": "https://raw.githubusercontent.com/leiyou-li/moyunvip/refs/heads/main/Warehouse/jar/test.jar",
       "key": "鲸鱼",
       "name": "鲸鱼｜APP",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppQi",
       "ext": {
-        "site": "https://gitee.com/zxmoyun/shared-warehouse/raw/master/test/lib/1.json",
+        "site": "https://raw.githubusercontent.com/leiyou-li/moyunvip/refs/heads/main/Warehouse/lib/1.json",
         "dataKey": "AAdgrdghjfgswerA",
         "dataIv": "AAdgrdghjfgswerA"
       }
     },
 	{
-	  "jar": "https://gitee.com/zxmoyun/shared-warehouse/raw/master/test/test.jar",
+	  "jar": "https://raw.githubusercontent.com/leiyou-li/moyunvip/refs/heads/main/Warehouse/jar/test.jar",
       "key": "小猪",
       "name": "小猪丨APP",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppQi",
       "ext": {
-        "site": "https://gitee.com/zxmoyun/shared-warehouse/raw/master/test/lib/tengxunyun.txt",
+        "site": "https://raw.githubusercontent.com/leiyou-li/moyunvip/refs/heads/main/Warehouse/lib/tengxunyun.txt",
         "dataKey": "seb5tq9mykp2w9ry",
         "dataIv": "seb5tq9mykp2w9ry",
         "ua": "okhttp/3.10.0"
       }
     },
 	{
-	  "jar": "https://gitee.com/zxmoyun/shared-warehouse/raw/master/test/test.jar",
+	  "jar": "https://raw.githubusercontent.com/leiyou-li/moyunvip/refs/heads/main/Warehouse/jar/test.jar",
       "key": "小猫",
       "name": "小猫｜APP",
       "type": 3,
@@ -308,13 +308,13 @@
       "changeable": 1,
       "api": "csp_AppGet",
       "ext": {
-        "site": "https://gitee.com/zxmoyun/shared-warehouse/raw/master/test/lib/1.txt",
+        "site": "https://raw.githubusercontent.com/leiyou-li/moyunvip/refs/heads/main/Warehouse/lib/1.txt",
         "dataKey": "xmyxmyxywlkjxywl",
         "dataIv": "xmyxmyxywlkjxywl"
       }
     },
 	{
-	  "jar": "https://gitee.com/zxmoyun/shared-warehouse/raw/master/test/test.jar",
+	  "jar": "https://raw.githubusercontent.com/leiyou-li/moyunvip/refs/heads/main/Warehouse/jar/test.jar",
       "key": "星芽短剧",
       "name": "星芽｜短剧",
       "type": 3,
@@ -325,7 +325,7 @@
       "filterable": 1
     },
 	{
-	  "jar": "https://gitee.com/zxmoyun/shared-warehouse/raw/master/test/test.jar",
+	  "jar": "https://raw.githubusercontent.com/leiyou-li/moyunvip/refs/heads/main/Warehouse/jar/test.jar",
       "key": "骚火影视",
       "name": "骚火｜影视",
       "type": 3,
@@ -337,7 +337,7 @@
             "key": "58影视",
             "name": "五八💖py",
             "type": 3,
-            "api": "https://gitee.com/zxmoyun/shared-warehouse/raw/master/libs/58视频.py",
+            "api": "https://raw.githubusercontent.com/leiyou-li/moyunvip/refs/heads/main/Warehouse/libs/58视频.py",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
@@ -348,7 +348,7 @@
             "key": "土豆浏览器",
             "name": "土豆💖py",
             "type": 3,
-            "api": "https://gitee.com/zxmoyun/shared-warehouse/raw/master/libs/土豆浏览器.py",
+            "api": "https://raw.githubusercontent.com/leiyou-li/moyunvip/refs/heads/main/Warehouse/libs/土豆浏览器.py",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
